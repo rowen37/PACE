@@ -1,0 +1,32 @@
+{
+  "counts": {
+    "by_stratum": {
+      "S1": 33,
+      "S2": 32,
+      "S3": 34
+    },
+    "cross_area": 48,
+    "fallbacks": 0,
+    "repeats": 9,
+    "total": 99
+  },
+  "manifest_provider": "demo",
+  "min_images_per_block": 1,
+  "per_stratum_target": 30,
+  "repeat_fraction": "10% with b/c swapped",
+  "rules": {
+    "S1": "poi_similar(A,B) and poi_similar(A,C) and walk_different(B,C)",
+    "S2": "walk_similar(A,B) and walk_similar(A,C) and poi_different(B,C)",
+    "S3": "random distinct blocks",
+    "poi_different": "different dominant category or min/max total count <= 0.25",
+    "poi_similar": "same dominant category and min/max total count >= 0.5",
+    "walk_different": "orientation cosine <= 0.2 or length ratio <= 0.25",
+    "walk_similar": "length-weighted orientation cosine >= 0.8, length and segment ratios >= 0.5"
+  },
+  "seed": 20261114,
+  "triplets_sha256": "afd9981ecd8f240280d723772226c34744e695bdbe8fa74aad336f599aac402f",
+  "usage_caps": {
+    "anchor": 3,
+    "candidate": 5
+  }
+}

@@ -1,36 +1,47 @@
-# PACE: Place-Aware Citywalk Exploration
+# PACE — Place-Aware Citywalk Exploration
 
-## Project Information
+PACE 以 RGSCL 的 POI 与建筑双视角为基线，加入公共入口、步行通路和目的地接入关系，学习行人视角的街区表征。连通片区生成与 Citywalk 推荐是这项表征的下游应用。
 
-**Student:** Qiwen Bian
+2026-11-11 整理工作区，准备重新搭建实验。
 
-## Background and Research Question
+当前任务定义、三方代码审计和分阶段实验见 [任务与下一步 SOP](docs/TASK_AND_EXPERIMENT_SOP.md)。审计发现并修复旧 RGSCL 的跨地区建筑图缓存错配；旧 RGSCL 外区成绩暂不能用于模型优劣判断，待固定历史参数重新评估。原始数据和历史输出保留。
 
-A Citywalk often begins with choosing an area to explore. A shopping district can contain hundreds of similar listings. How it feels on foot depends on how those places are organized. Shops can share an indoor concourse, line several connected streets, or form a mix of both. PACE uses neighborhood embeddings to describe these patterns so users can choose an area that suits how they want to explore. Once there, they choose their own route and stops.
+## 实验环境
 
-**Research question:** How can a neighborhood embedding capture different ways of exploring a city on foot and help users choose an area for their Citywalk?
+在项目根目录，用 Python 3.12 创建本地环境：
 
-## Data Sources
+```sh
+python3.12 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python -m pip check
+```
 
-New York City will serve as the development site. Selected areas in Shanghai will be used to test transfer with fields available in both cities.
+[requirements.in](requirements.in) 列出直接依赖，[requirements.txt](requirements.txt) 固定完整版本。当前环境在 macOS arm64、Python 3.12.15 上验证，用于读取冻结快照、构图和运行模型。历史下载、绘图和作者脚本的额外依赖见各自归档说明。
 
-| Data type | United States — New York City | China — Shanghai |
-| --- | --- | --- |
-| Walking network | [NYCWalks](https://cityform.mit.edu/projects/nycwalks) provides citywide sidewalks, crossings, and footpaths. OpenStreetMap (OSM) adds street classifications. | The [OSM China extract](https://download.geofabrik.de/asia/china.html) provides streets and mapped footpaths. Crossings will be checked in the study areas. |
-| Commercial points of interest (POIs) | [Overture Places](https://docs.overturemaps.org/guides/places/) provides locations and category hierarchies. [NYC storefront records](https://data.cityofnewyork.us/d/92iy-9c3n) support spot checks. | Overture Places and OSM provide locations and categories. Sample checks will cover mall tenants and street-facing shops. |
-| Buildings and entrances | [NYC building footprints](https://data.cityofnewyork.us/d/5zhs-2jue), mapped entrances, and public mall directories. | [Overture Buildings](https://docs.overturemaps.org/guides/buildings/), mapped entrances, and public mall directories. |
-| Exploration profile labels | Manually label sampled areas for indoor shopping and street browsing. An area can have both labels. | Apply the same labeling criteria independently to the Shanghai sample. |
+已有本地快照时，可用一次短运行验证三视角实验入口。每次指定一个新的输出目录：
 
-## Proposed AI Methods
+```sh
+.venv/bin/python experiments/pedestrian_rgscl.py --epochs 1 --output outputs/env_smoke
+```
 
-| Engineering implementation | Method category |
-| --- | --- |
-| **Build the walking graph and link shops to buildings and streets.** Use spatial joins to associate POIs with building footprints. Connect verified entrances to the graph built from sidewalks and crossings. | Spatial joins and network construction · Vector data operations |
-| **Generate candidate areas at multiple scales.** Use graph-constrained agglomerative clustering with average linkage to merge walkably adjacent blocks based on edge betweenness, node degree, dead-end ratio, and street orientation. Include mall complexes as candidates linked to public entrances. | Spatially constrained clustering · Unsupervised learning |
-| **Encode each area.** Use embedding lookup for broad and fine POI categories. Apply two [GraphSAGE](https://proceedings.neurips.cc/paper_files/paper/2017/hash/5dd9db5e033da9c6fb5ba83c7a7ebea9-Abstract.html) layers to average neighboring features by relationship type across shops, buildings, and streets. Mean-pool building and street representations separately, then append the share of shops in the largest complex and the length of streets with storefronts. | Graph neural networks · Deep neural networks |
-| **Learn and test exploration profiles.** Train the encoder and a linear prediction head with binary cross-entropy for each profile. Hold out entire districts. Compare POI summaries, POI summaries plus spatial features, and those features plus the learned embedding. Use areas with similar POI mixes to check whether the embedding captures differences in how people can explore them. | Supervised learning · Ablation study |
-| **Apply the walking budget at request time.** The user selects a start, a time budget, and an exploration profile. Use [single-source Dijkstra](https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.shortest_paths.weighted.single_source_dijkstra.html) to calculate walking times to candidate entrances. Keep areas that leave time to explore and rank them by the selected profile. | Graph search · Constraint-based filtering |
+## 目录
 
-## Expected Outcomes
+```text
+PACE/
+├── data/
+│   ├── raw/nyc/2026-11-09/   # 已有纽约原始数据及来源校验清单
+│   ├── processed/           # 新流程生成的清洗数据与图
+│   ├── annotations/         # 人工标注
+│   └── splits/              # 固定的训练、验证、测试划分
+├── src/pace/                # 新流程的公共代码
+├── configs/                 # 数据处理与实验配置
+├── docs/                    # 任务定义、代码审计与实验 SOP
+├── experiments/             # 新实验入口
+├── outputs/                 # 新实验指标、模型和图表
+├── references/              # 论文及作者参考代码
+└── archive/2026-11-11/       # 原实验、结果与原项目说明
+```
 
-An interactive map will show several feasible areas, their boundaries, suggested entrances, walking times, and features that describe how each area can be explored. A short evaluation will examine which features distinguish exploration profiles, how well they transfer to Shanghai, and whether users find the descriptions helpful when choosing where to walk.
+原始数据以独立快照保存，处理后的数据写入 `data/processed/`，标注和划分分别写入对应目录。实验配置引用数据路径，运行结果按实验名称写入 `outputs/`。
+
+数据说明见 [data/README.md](data/README.md)。旧实验的使用方式和迁移记录见 [archive/2026-11-11/README.md](archive/2026-11-11/README.md)。

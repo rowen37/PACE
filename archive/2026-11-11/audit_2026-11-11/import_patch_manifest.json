@@ -1,0 +1,20 @@
+[
+  {
+    "path": "experiments/step2/cluster.py",
+    "backup": "audit_2026-11-11/before/experiments/step2/cluster.py",
+    "before_sha256": "d0fb1e52265c52a41d865a4d59feddadb897e43267f53b15391322996cd79dfa",
+    "after_sha256": "9d83242b1cb638aaf8e774981228b00153f539d20a6d05634e367d98783e9d68"
+  },
+  {
+    "path": "experiments/step2/embedding.py",
+    "backup": "audit_2026-11-11/before/experiments/step2/embedding.py",
+    "before_sha256": "867c1bad2842575eb7dd8fd13f7264e0c03de6eb5c843f7b4b4a07776f26bdcb",
+    "after_sha256": "5acf142cde7386491140b847f3f724e55c33f42f57fa1b699641f95d4dca65a3"
+  },
+  {
+    "path": "experiments/step3/data.py",
+    "backup": "audit_2026-11-11/before/experiments/step3/data.py",
+    "before_sha256": "94f0e2ecd16f75a1e32396f3e9a1a437b2596cce71dfe95ac69c8f650feaf697",
+    "after_sha256": "b074468b658d0b9f9abd6e4f7ea3818b1840a8a44332c567e793517e7df31272"
+  }
+]

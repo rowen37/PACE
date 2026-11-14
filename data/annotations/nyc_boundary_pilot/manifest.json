@@ -1,0 +1,23 @@
+{
+  "created_at_utc": "2026-11-11T21:07:25.633074+00:00",
+  "purpose": "Evaluation-only development reference boundaries",
+  "crs": "OGC:CRS84",
+  "files": {
+    "commercial_bids.geojson": {
+      "source": "https://data.cityofnewyork.us/Business/Business-Improvement-Districts/7jdm-inj8",
+      "download_url": "https://data.cityofnewyork.us/resource/7jdm-inj8.geojson?$limit=100",
+      "source_layer_data_date": "2024-10-08",
+      "source_sha256": "034b0df5df044c87ac6d8e5e03c779e65157068738135cce828116d64541acc4",
+      "source_count": 76,
+      "feature_count": 2,
+      "sha256": "1a5ff12e84645fb7ce6ef5fecca53c4e35934ee15bde7e634491541ca60c1317"
+    },
+    "hudson_yards_mall_osm.geojson": {
+      "source": "https://www.openstreetmap.org/way/398440363",
+      "source_file": "data/raw/nyc/2026-11-09/hudson_yards_osm.json",
+      "source_sha256": "96c7927b946fcef392e74db212645e661af52eed424d4293a24cac5da68f55dc",
+      "feature_count": 1,
+      "sha256": "789c4bb94c0105c95424d9143488c9751d5dd319c837b79a7f1c309831c252c4"
+    }
+  }
+}

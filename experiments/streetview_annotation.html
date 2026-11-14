@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PACE 街区标注</title>
+<style>
+  :root { --line: #d8d8d8; --bg: #f4f4f2; --card: #ffffff; --accent: #1a5fb4; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; background: var(--bg); color: #222; }
+  header { display: flex; gap: 16px; align-items: center; padding: 10px 18px; background: #24292f; color: #fff; flex-wrap: wrap; }
+  header h1 { font-size: 16px; margin: 0; font-weight: 600; }
+  header input { padding: 5px 8px; border-radius: 5px; border: none; font-size: 14px; width: 130px; }
+  header button { padding: 5px 12px; border-radius: 5px; border: none; cursor: pointer; }
+  #progress { font-size: 13px; opacity: .9; margin-left: auto; }
+  #bar { height: 4px; background: #49505a; }
+  #bar > div { height: 100%; width: 0; background: #8ff0a4; transition: width .2s; }
+  .banner { padding: 6px 18px; background: #f6c344; font-size: 13px; display: none; }
+  main { max-width: 1180px; margin: 0 auto; padding: 16px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 12px; margin-bottom: 16px; }
+  .card h2 { font-size: 14px; margin: 0 0 8px; color: #555; font-weight: 600; }
+  .images { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 8px; }
+  .images img { width: 100%; height: 200px; object-fit: cover; border-radius: 6px; background: #eee; }
+  .question { font-size: 17px; margin: 4px 0 14px; }
+  .question b { color: var(--accent); }
+  #duel { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 760px) { #duel { grid-template-columns: 1fr; } }
+  .choices { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 14px; }
+  .choices button { flex: 1; min-width: 150px; padding: 12px 10px; font-size: 15px; border-radius: 8px;
+                    border: 1px solid var(--line); background: #fff; cursor: pointer; text-align: center; }
+  .choices button.primary { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+  .choices button:hover { filter: brightness(.95); }
+  .choices button small { display: block; font-size: 11px; opacity: .7; font-weight: 400; }
+  .choices.vertical { flex-direction: column; }
+  .choices.vertical button { text-align: left; padding: 12px 16px; }
+  .hint { font-size: 12.5px; color: #999; margin-top: 10px; }
+  #status { text-align: center; color: #666; padding: 40px 0; font-size: 15px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>PACE 街区标注</h1>
+  <input id="annotator" placeholder="标注者 ID">
+  <button id="save-id">开始</button>
+  <span id="progress"></span>
+</header>
+<div id="bar"><div></div></div>
+<div class="banner" id="banner">当前为演示数据（占位图）。运行 streetview_fetch.py --replace 抓取真实街景后即可正式标注。</div>
+<main id="main"><p id="status">输入标注者 ID 后点「开始」。</p></main>
+
+<script>
+let config = null, queue = [], index = 0, shown = null;
+// 只累计页面可见时的作答时间，挂机不计入 elapsed_ms
+let activeMs = 0, lastActive = null;
+document.addEventListener("visibilitychange", () => {
+  if (document.hidden) {
+    if (lastActive !== null) { activeMs += performance.now() - lastActive; lastActive = null; }
+  } else {
+    lastActive = performance.now();
+  }
+});
+
+function hash32(s) { let h = 1779033703; for (let i = 0; i < s.length; i++) { h = Math.imul(h ^ s.charCodeAt(i), 3432918353); h = h << 13 | h >>> 19; } return h >>> 0; }
+function mulberry32(a) { return () => { a |= 0; a = a + 0x6D2B79F5 | 0; let t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
+
+function img(list) {
+  return list.length
+    ? `<div class="images">${list.map(u => `<img src="${u}" loading="lazy" alt="">`).join("")}</div>`
+    : `<p style="color:#999;font-size:13px;margin:0">（无可用街景）</p>`;
+}
+
+function optionButtons(options) {
+  return options.map((o, i) =>
+    `<button class="${i === 0 ? "primary" : ""}" onclick="answer('${o.key}')">${o.label}<small>快捷键 ${i + 1}</small></button>`).join("");
+}
+
+function render() {
+  const main = document.getElementById("main");
+  if (index >= queue.length) {
+    main.innerHTML = `<div class="card"><p id="status">全部完成 🎉 共 ${queue.length} 题。结果已保存到服务器。</p></div>`;
+    return;
+  }
+  const t = queue[index];
+  shown = {t};
+  document.getElementById("bar").firstElementChild.style.width = (index / queue.length * 100) + "%";
+  document.getElementById("progress").textContent = `${index + 1} / ${queue.length}`;
+  let body;
+  if (t.kind === "rating") {
+    body = `
+      <p class="question">${t.question}</p>
+      <div class="card"><h2>街区街景</h2>${img(t.images)}</div>
+      <div class="choices vertical">${optionButtons(t.options)}</div>
+      <p class="hint">${t.hint}</p>`;
+  } else {
+    const rng = mulberry32(hash32((annotator() || "x") + "|" + t.question_id));
+    const bLeft = rng() < 0.5;  // per-annotator deterministic side for block b
+    shown.b_left = bLeft;
+    const leftImages = bLeft ? t.b_images : t.c_images;
+    const rightImages = bLeft ? t.c_images : t.b_images;
+    body = `
+      <p class="question">${t.question} <b>只判断相似，不判断好坏。</b></p>
+      <div class="card"><h2>参考街区 A</h2>${img(t.anchor_images)}</div>
+      <div id="duel">
+        <div class="card"><h2>候选 1（左）</h2>${img(leftImages)}</div>
+        <div class="card"><h2>候选 2（右）</h2>${img(rightImages)}</div>
+      </div>
+      <div class="choices">
+        <button class="primary" onclick="answer('left')">← 候选 1 更像<small>快捷键 1</small></button>
+        <button onclick="answer('tie')">平局<small>快捷键 3</small></button>
+        <button onclick="answer('insufficient')">证据不足<small>快捷键 4</small></button>
+        <button class="primary" onclick="answer('right')">候选 2 更像 →<small>快捷键 2</small></button>
+      </div>
+      <p class="hint">${t.hint} 看不清或街景过旧就选「证据不足」。</p>`;
+  }
+  main.innerHTML = body;
+  activeMs = 0;
+  lastActive = document.hidden ? null : performance.now();
+}
+
+function annotator() { return document.getElementById("annotator").value.trim() || localStorage.getItem("pace_annotator") || ""; }
+
+async function answer(input) {
+  if (!shown || !annotator()) return;
+  const t = shown.t;
+  let value = input, left;
+  if (t.kind !== "rating") {
+    value = input === "left" ? (shown.b_left ? "b" : "c")
+          : input === "right" ? (shown.b_left ? "c" : "b") : input;
+    left = shown.b_left ? "b" : "c";
+  }
+  const elapsed = activeMs + (lastActive !== null ? performance.now() - lastActive : 0);
+  const row = {question_id: t.question_id, annotator: annotator(), value, ...(left ? {left} : {}),
+               elapsed_ms: Math.round(elapsed)};
+  const buttons = document.querySelectorAll(".choices button");
+  buttons.forEach(b => b.disabled = true);
+  try {
+    await fetch("/api/response", {method: "POST", headers: {"Content-Type": "application/json"},
+                                  body: JSON.stringify(row)});
+  } catch (e) { alert("保存失败，请重试"); buttons.forEach(b => b.disabled = false); return; }
+  shown = null; index++; render();
+}
+
+document.addEventListener("keydown", e => {
+  if (!shown) return;
+  if (shown.t.kind === "rating") {
+    const i = parseInt(e.key, 10);
+    if (i >= 1 && i <= shown.t.options.length) answer(shown.t.options[i - 1].key);
+  } else if (["1", "2", "3", "4"].includes(e.key)) {
+    answer({"1": "left", "2": "right", "3": "tie", "4": "insufficient"}[e.key]);
+  }
+});
+
+async function boot() {
+  const id = new URLSearchParams(location.search).get("annotator") || localStorage.getItem("pace_annotator");
+  if (id) document.getElementById("annotator").value = id;
+  if (!annotator()) return;
+  const res = await fetch("/api/config?annotator=" + encodeURIComponent(annotator()));
+  config = await res.json();
+  if (config.provider === "demo") document.getElementById("banner").style.display = "block";
+  const answered = new Set(config.answered);
+  queue = config.items;
+  index = queue.findIndex(t => !answered.has(t.question_id));
+  if (index < 0) index = queue.length;
+  render();
+}
+
+document.getElementById("save-id").onclick = () => {
+  const v = annotator();
+  if (!v) { alert("请填写标注者 ID（字母数字）"); return; }
+  localStorage.setItem("pace_annotator", v);
+  const url = new URL(location); url.searchParams.set("annotator", v); location = url;
+};
+document.getElementById("annotator").addEventListener("keydown", e => { if (e.key === "Enter") document.getElementById("save-id").click(); });
+boot();
+</script>
+</body>
+</html>

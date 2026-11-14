@@ -1,0 +1,611 @@
+{
+  "agreement_between_annotators": {
+    "001:002": {
+      "cohen_kappa": 0.5384168763305592,
+      "common": 315,
+      "raw_agreement": 0.6634920634920635
+    }
+  },
+  "annotators": {
+    "001": {
+      "answered": 414,
+      "chose_b_when_b_left": 0.625,
+      "chose_b_when_b_right": 0.631578947368421,
+      "elapsed_ms": {
+        "max": 1096748,
+        "median": 4313.5,
+        "min": 986,
+        "under_2s": 60
+      },
+      "pairwise_choices": {
+        "b": 34,
+        "c": 36,
+        "insufficient": 9,
+        "tie": 20
+      },
+      "pairwise_questions": 99,
+      "rating_questions": 315,
+      "rating_values_by_field": {
+        "continuity": {
+          "A": 29,
+          "B": 33,
+          "C": 40,
+          "X": 3
+        },
+        "door_density": {
+          "A": 27,
+          "B": 38,
+          "C": 35,
+          "X": 3
+        },
+        "frontage": {
+          "A": 34,
+          "B": 26,
+          "C": 19,
+          "D": 23,
+          "X": 5
+        }
+      },
+      "repeats": {
+        "conflict": 5,
+        "consistent": 9,
+        "skipped": 1
+      }
+    },
+    "002": {
+      "answered": 315,
+      "elapsed_ms": {
+        "max": 834611,
+        "median": 2273,
+        "min": 278,
+        "under_2s": 136
+      },
+      "pairwise_questions": 0,
+      "rating_questions": 315,
+      "rating_values_by_field": {
+        "continuity": {
+          "A": 45,
+          "B": 27,
+          "C": 31,
+          "X": 2
+        },
+        "door_density": {
+          "A": 46,
+          "B": 28,
+          "C": 26,
+          "X": 3
+        },
+        "frontage": {
+          "A": 48,
+          "B": 16,
+          "C": 16,
+          "D": 23,
+          "X": 4
+        }
+      },
+      "repeats": {
+        "conflict": 4,
+        "consistent": 10,
+        "skipped": 1
+      }
+    }
+  },
+  "rating_prediction": {
+    "continuity": {
+      "building": {
+        "13": {
+          "accuracy": 0.6557377049180327,
+          "majority_baseline": 0.4262295081967213,
+          "n": 61
+        },
+        "29": {
+          "accuracy": 0.6885245901639344,
+          "majority_baseline": 0.4262295081967213,
+          "n": 61
+        },
+        "53": {
+          "accuracy": 0.6229508196721312,
+          "majority_baseline": 0.4262295081967213,
+          "n": 61
+        }
+      },
+      "equal_concat_fused": {
+        "13": {
+          "accuracy": 0.7464788732394366,
+          "majority_baseline": 0.4225352112676056,
+          "n": 71
+        },
+        "29": {
+          "accuracy": 0.7323943661971831,
+          "majority_baseline": 0.4225352112676056,
+          "n": 71
+        },
+        "53": {
+          "accuracy": 0.6901408450704225,
+          "majority_baseline": 0.4225352112676056,
+          "n": 71
+        }
+      },
+      "poi": {
+        "13": {
+          "accuracy": 0.6612903225806451,
+          "majority_baseline": 0.41935483870967744,
+          "n": 62
+        },
+        "29": {
+          "accuracy": 0.6290322580645161,
+          "majority_baseline": 0.41935483870967744,
+          "n": 62
+        },
+        "53": {
+          "accuracy": 0.6451612903225806,
+          "majority_baseline": 0.41935483870967744,
+          "n": 62
+        }
+      },
+      "walk": {
+        "13": {
+          "accuracy": 0.704225352112676,
+          "majority_baseline": 0.4225352112676056,
+          "n": 71
+        },
+        "29": {
+          "accuracy": 0.704225352112676,
+          "majority_baseline": 0.4225352112676056,
+          "n": 71
+        },
+        "53": {
+          "accuracy": 0.7183098591549296,
+          "majority_baseline": 0.4225352112676056,
+          "n": 71
+        }
+      }
+    },
+    "door_density": {
+      "building": {
+        "13": {
+          "accuracy": 0.723404255319149,
+          "majority_baseline": 0.44680851063829785,
+          "n": 47
+        },
+        "29": {
+          "accuracy": 0.7446808510638298,
+          "majority_baseline": 0.44680851063829785,
+          "n": 47
+        },
+        "53": {
+          "accuracy": 0.723404255319149,
+          "majority_baseline": 0.44680851063829785,
+          "n": 47
+        }
+      },
+      "equal_concat_fused": {
+        "13": {
+          "accuracy": 0.8135593220338984,
+          "majority_baseline": 0.3898305084745763,
+          "n": 59
+        },
+        "29": {
+          "accuracy": 0.7966101694915254,
+          "majority_baseline": 0.3898305084745763,
+          "n": 59
+        },
+        "53": {
+          "accuracy": 0.7966101694915254,
+          "majority_baseline": 0.3898305084745763,
+          "n": 59
+        }
+      },
+      "poi": {
+        "13": {
+          "accuracy": 0.8,
+          "majority_baseline": 0.46,
+          "n": 50
+        },
+        "29": {
+          "accuracy": 0.84,
+          "majority_baseline": 0.46,
+          "n": 50
+        },
+        "53": {
+          "accuracy": 0.84,
+          "majority_baseline": 0.46,
+          "n": 50
+        }
+      },
+      "walk": {
+        "13": {
+          "accuracy": 0.7457627118644068,
+          "majority_baseline": 0.3898305084745763,
+          "n": 59
+        },
+        "29": {
+          "accuracy": 0.7457627118644068,
+          "majority_baseline": 0.3898305084745763,
+          "n": 59
+        },
+        "53": {
+          "accuracy": 0.7627118644067796,
+          "majority_baseline": 0.3898305084745763,
+          "n": 59
+        }
+      }
+    },
+    "frontage": {
+      "building": {
+        "13": {
+          "accuracy": 0.5660377358490566,
+          "majority_baseline": 0.49056603773584906,
+          "n": 53
+        },
+        "29": {
+          "accuracy": 0.5660377358490566,
+          "majority_baseline": 0.49056603773584906,
+          "n": 53
+        },
+        "53": {
+          "accuracy": 0.5283018867924528,
+          "majority_baseline": 0.49056603773584906,
+          "n": 53
+        }
+      },
+      "equal_concat_fused": {
+        "13": {
+          "accuracy": 0.5606060606060606,
+          "majority_baseline": 0.4696969696969697,
+          "n": 66
+        },
+        "29": {
+          "accuracy": 0.5606060606060606,
+          "majority_baseline": 0.4696969696969697,
+          "n": 66
+        },
+        "53": {
+          "accuracy": 0.48484848484848486,
+          "majority_baseline": 0.4696969696969697,
+          "n": 66
+        }
+      },
+      "poi": {
+        "13": {
+          "accuracy": 0.48214285714285715,
+          "majority_baseline": 0.5178571428571429,
+          "n": 56
+        },
+        "29": {
+          "accuracy": 0.42857142857142855,
+          "majority_baseline": 0.5178571428571429,
+          "n": 56
+        },
+        "53": {
+          "accuracy": 0.4107142857142857,
+          "majority_baseline": 0.5178571428571429,
+          "n": 56
+        }
+      },
+      "walk": {
+        "13": {
+          "accuracy": 0.5151515151515151,
+          "majority_baseline": 0.4696969696969697,
+          "n": 66
+        },
+        "29": {
+          "accuracy": 0.5757575757575758,
+          "majority_baseline": 0.4696969696969697,
+          "n": 66
+        },
+        "53": {
+          "accuracy": 0.48484848484848486,
+          "majority_baseline": 0.4696969696969697,
+          "n": 66
+        }
+      }
+    }
+  },
+  "ratings_sha256": "2de696011c6878b5524f1bd61c15a48e59f6a4acc5e1dfbdb83fd845f92c3da8",
+  "source_sha256": {
+    "hudson_yards": "ce37cb22157f1093d3fc184d2ada5a297ea57dc25293a34fd315836a53be2b42",
+    "soho": "21328df20a1a339418f4f8e167bc67a4364dd4f6103f5d0148acb64869e921c9"
+  },
+  "triplet_model_vs_labels": {
+    "001/overall": {
+      "building": {
+        "13": {
+          "anchor_bootstrap_ci95": [
+            0.4782608695652174,
+            0.7297297297297297
+          ],
+          "by_stratum": {
+            "S1": {
+              "agreement": 0.65,
+              "n": 20
+            },
+            "S2": {
+              "agreement": 0.6428571428571429,
+              "n": 14
+            },
+            "S3": {
+              "agreement": 0.4444444444444444,
+              "n": 9
+            }
+          },
+          "overall": {
+            "agreement": 0.6046511627906976,
+            "n": 43
+          }
+        },
+        "29": {
+          "anchor_bootstrap_ci95": [
+            0.3902439024390244,
+            0.6666666666666666
+          ],
+          "by_stratum": {
+            "S1": {
+              "agreement": 0.55,
+              "n": 20
+            },
+            "S2": {
+              "agreement": 0.5714285714285714,
+              "n": 14
+            },
+            "S3": {
+              "agreement": 0.4444444444444444,
+              "n": 9
+            }
+          },
+          "overall": {
+            "agreement": 0.5348837209302325,
+            "n": 43
+          }
+        },
+        "53": {
+          "anchor_bootstrap_ci95": [
+            0.4444444444444444,
+            0.7045454545454546
+          ],
+          "by_stratum": {
+            "S1": {
+              "agreement": 0.6,
+              "n": 20
+            },
+            "S2": {
+              "agreement": 0.6428571428571429,
+              "n": 14
+            },
+            "S3": {
+              "agreement": 0.4444444444444444,
+              "n": 9
+            }
+          },
+          "overall": {
+            "agreement": 0.5813953488372093,
+            "n": 43
+          }
+        }
+      },
+      "equal_concat_fused": {
+        "13": {
+          "anchor_bootstrap_ci95": [
+            0.4246575342465753,
+            0.676056338028169
+          ],
+          "by_stratum": {
+            "S1": {
+              "agreement": 0.4782608695652174,
+              "n": 23
+            },
+            "S2": {
+              "agreement": 0.5714285714285714,
+              "n": 28
+            },
+            "S3": {
+              "agreement": 0.5789473684210527,
+              "n": 19
+            }
+          },
+          "overall": {
+            "agreement": 0.5428571428571428,
+            "n": 70
+          }
+        },
+        "29": {
+          "anchor_bootstrap_ci95": [
+            0.4246575342465753,
+            0.6621621621621622
+          ],
+          "by_stratum": {
+            "S1": {
+              "agreement": 0.4782608695652174,
+              "n": 23
+            },
+            "S2": {
+              "agreement": 0.5357142857142857,
+              "n": 28
+            },
+            "S3": {
+              "agreement": 0.631578947368421,
+              "n": 19
+            }
+          },
+          "overall": {
+            "agreement": 0.5428571428571428,
+            "n": 70
+          }
+        },
+        "53": {
+          "anchor_bootstrap_ci95": [
+            0.4473684210526316,
+            0.6984126984126984
+          ],
+          "by_stratum": {
+            "S1": {
+              "agreement": 0.5652173913043478,
+              "n": 23
+            },
+            "S2": {
+              "agreement": 0.5714285714285714,
+              "n": 28
+            },
+            "S3": {
+              "agreement": 0.5789473684210527,
+              "n": 19
+            }
+          },
+          "overall": {
+            "agreement": 0.5714285714285714,
+            "n": 70
+          }
+        }
+      },
+      "poi": {
+        "13": {
+          "anchor_bootstrap_ci95": [
+            0.3829787234042553,
+            0.6904761904761905
+          ],
+          "by_stratum": {
+            "S1": {
+              "agreement": 0.6086956521739131,
+              "n": 23
+            },
+            "S2": {
+              "agreement": 0.4166666666666667,
+              "n": 12
+            },
+            "S3": {
+              "agreement": 0.5454545454545454,
+              "n": 11
+            }
+          },
+          "overall": {
+            "agreement": 0.5434782608695652,
+            "n": 46
+          }
+        },
+        "29": {
+          "anchor_bootstrap_ci95": [
+            0.4782608695652174,
+            0.7333333333333333
+          ],
+          "by_stratum": {
+            "S1": {
+              "agreement": 0.7391304347826086,
+              "n": 23
+            },
+            "S2": {
+              "agreement": 0.5,
+              "n": 12
+            },
+            "S3": {
+              "agreement": 0.45454545454545453,
+              "n": 11
+            }
+          },
+          "overall": {
+            "agreement": 0.6086956521739131,
+            "n": 46
+          }
+        },
+        "53": {
+          "anchor_bootstrap_ci95": [
+            0.41304347826086957,
+            0.675
+          ],
+          "by_stratum": {
+            "S1": {
+              "agreement": 0.7391304347826086,
+              "n": 23
+            },
+            "S2": {
+              "agreement": 0.4166666666666667,
+              "n": 12
+            },
+            "S3": {
+              "agreement": 0.2727272727272727,
+              "n": 11
+            }
+          },
+          "overall": {
+            "agreement": 0.5434782608695652,
+            "n": 46
+          }
+        }
+      },
+      "walk": {
+        "13": {
+          "anchor_bootstrap_ci95": [
+            0.4444444444444444,
+            0.696969696969697
+          ],
+          "by_stratum": {
+            "S1": {
+              "agreement": 0.5652173913043478,
+              "n": 23
+            },
+            "S2": {
+              "agreement": 0.6071428571428571,
+              "n": 28
+            },
+            "S3": {
+              "agreement": 0.5263157894736842,
+              "n": 19
+            }
+          },
+          "overall": {
+            "agreement": 0.5714285714285714,
+            "n": 70
+          }
+        },
+        "29": {
+          "anchor_bootstrap_ci95": [
+            0.43243243243243246,
+            0.7076923076923077
+          ],
+          "by_stratum": {
+            "S1": {
+              "agreement": 0.4782608695652174,
+              "n": 23
+            },
+            "S2": {
+              "agreement": 0.5714285714285714,
+              "n": 28
+            },
+            "S3": {
+              "agreement": 0.6842105263157895,
+              "n": 19
+            }
+          },
+          "overall": {
+            "agreement": 0.5714285714285714,
+            "n": 70
+          }
+        },
+        "53": {
+          "anchor_bootstrap_ci95": [
+            0.4383561643835616,
+            0.6774193548387096
+          ],
+          "by_stratum": {
+            "S1": {
+              "agreement": 0.5652173913043478,
+              "n": 23
+            },
+            "S2": {
+              "agreement": 0.5714285714285714,
+              "n": 28
+            },
+            "S3": {
+              "agreement": 0.5263157894736842,
+              "n": 19
+            }
+          },
+          "overall": {
+            "agreement": 0.5571428571428572,
+            "n": 70
+          }
+        }
+      }
+    }
+  },
+  "triplets_sha256": "afd9981ecd8f240280d723772226c34744e695bdbe8fa74aad336f599aac402f"
+}

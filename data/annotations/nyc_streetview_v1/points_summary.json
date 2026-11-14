@@ -1,0 +1,19 @@
+{
+  "areas": {
+    "hudson_yards": {
+      "blocks": 34,
+      "blocks_with_points": 33,
+      "points_sha256": "dfddcd8342ef91406deb41c6d22c5f7da8c5c4768390459d19860841624ee030",
+      "total_points": 196
+    },
+    "soho": {
+      "blocks": 67,
+      "blocks_with_points": 67,
+      "points_sha256": "eebf579bf19447a00b38cd988855192cffef1dba3626a18bb1ecd337ab9dca20",
+      "total_points": 422
+    }
+  },
+  "dedupe_m": 25.0,
+  "max_points_per_block": 8,
+  "sample_interval_m": 35.0
+}

@@ -1,0 +1,597 @@
+{
+  "date": "2026-11-11",
+  "files": [
+    {
+      "original": "experiments/.DS_Store",
+      "current": "archive/2026-11-11/experiments/.DS_Store",
+      "sha256": "4e684e1268dd6cddb15021dda283909b23824df726b0c2ca760fb13bad41d5f0",
+      "bytes": 6148
+    },
+    {
+      "original": "experiments/step1/.gitignore",
+      "current": "archive/2026-11-11/experiments/step1/.gitignore",
+      "sha256": "6d0c14866407bf4e46769bab9dab7eb063dbc5653cce4afe92f3fa14104a79bc",
+      "bytes": 30
+    },
+    {
+      "original": "experiments/step1/README.md",
+      "current": "archive/2026-11-11/experiments/step1/README.md",
+      "sha256": "6c47211ee5313506a36c7e60378b3079cc78c3f803a0e5ccb147126c3958408f",
+      "bytes": 4557
+    },
+    {
+      "original": "experiments/step1/__pycache__/fetch.cpython-312.pyc",
+      "current": "archive/2026-11-11/experiments/step1/__pycache__/fetch.cpython-312.pyc",
+      "sha256": "4dda7d6bd30d6babb7febf598257a28aef964ce2fbff750dfc784517086830a2",
+      "bytes": 5095
+    },
+    {
+      "original": "experiments/step1/__pycache__/run.cpython-312.pyc",
+      "current": "archive/2026-11-11/experiments/step1/__pycache__/run.cpython-312.pyc",
+      "sha256": "dda96b0cf2441899bb8b9a7422207b31b0d50987bed67a501ed8b42a644e72ec",
+      "bytes": 23098
+    },
+    {
+      "original": "experiments/step1/areas.json",
+      "current": "archive/2026-11-11/experiments/step1/areas.json",
+      "sha256": "98539f7565e6487ef5ee07e790076cb59523e11f6357c123bd8449c44830cdd1",
+      "bytes": 929
+    },
+    {
+      "original": "experiments/step1/data/hudson_yards_buildings.geojson",
+      "current": "data/raw/nyc/2026-11-09/hudson_yards_buildings.geojson",
+      "sha256": "f3b468913acced134ed513d41a701c45ac7773633adad44fd5de80575daff2cd",
+      "bytes": 374940
+    },
+    {
+      "original": "experiments/step1/data/hudson_yards_osm.json",
+      "current": "data/raw/nyc/2026-11-09/hudson_yards_osm.json",
+      "sha256": "96c7927b946fcef392e74db212645e661af52eed424d4293a24cac5da68f55dc",
+      "bytes": 13689811
+    },
+    {
+      "original": "experiments/step1/data/hudson_yards_places.geojson",
+      "current": "data/raw/nyc/2026-11-09/hudson_yards_places.geojson",
+      "sha256": "c6dd33f768496b613a5e4eb81facf849dff1bb1194e8944d3736b8147567dcff",
+      "bytes": 3436855
+    },
+    {
+      "original": "experiments/step1/data/manifest.json",
+      "current": "data/raw/nyc/2026-11-09/manifest.json",
+      "sha256": "a65d85b61fdad2652a30978f8a797fd712d6e5253a8f9ada1a196a7a712611b0",
+      "bytes": 758
+    },
+    {
+      "original": "experiments/step1/data/nycwalks.geojson",
+      "current": "data/raw/nyc/2026-11-09/nycwalks.geojson",
+      "sha256": "7502e07f5c4f172c98e30a6d9fffbd9a9811ae477294aa1c4e8f49ada1eb9c0b",
+      "bytes": 275671304
+    },
+    {
+      "original": "experiments/step1/data/soho_buildings.geojson",
+      "current": "data/raw/nyc/2026-11-09/soho_buildings.geojson",
+      "sha256": "b99cb88b5d85e6d3b449bb85b0f55f93ff91bf16ea963f17fb423ecd40ed1bf3",
+      "bytes": 1072840
+    },
+    {
+      "original": "experiments/step1/data/soho_osm.json",
+      "current": "data/raw/nyc/2026-11-09/soho_osm.json",
+      "sha256": "76c8e018c1886fb8fe19a87a32d9dc7ff424400b1187ad91c88b7d179e5f3b6b",
+      "bytes": 4758201
+    },
+    {
+      "original": "experiments/step1/data/soho_places.geojson",
+      "current": "data/raw/nyc/2026-11-09/soho_places.geojson",
+      "sha256": "8cd1b451cc33bcf0d746151ff94237364e7e3318a4e414cb77a35cae061e5159",
+      "bytes": 11498844
+    },
+    {
+      "original": "experiments/step1/fetch.py",
+      "current": "archive/2026-11-11/experiments/step1/fetch.py",
+      "sha256": "114d7c6ae048f4295e3843ecf85bf565af1afa7e8281d53794b28bd64f5217ed",
+      "bytes": 2657
+    },
+    {
+      "original": "experiments/step1/outputs/hudson_yards/buildings.geojson",
+      "current": "archive/2026-11-11/experiments/step1/outputs/hudson_yards/buildings.geojson",
+      "sha256": "980c15bac3abb74818ac7c29956b717c1ae2ff50e604bb4f679db2f545f1df05",
+      "bytes": 629153
+    },
+    {
+      "original": "experiments/step1/outputs/hudson_yards/entrances.geojson",
+      "current": "archive/2026-11-11/experiments/step1/outputs/hudson_yards/entrances.geojson",
+      "sha256": "1bfec3b106ae346a7ace631358d90317bb1a89bcb6acaa2827a63b5876e90809",
+      "bytes": 1104
+    },
+    {
+      "original": "experiments/step1/outputs/hudson_yards/graph.geojson",
+      "current": "archive/2026-11-11/experiments/step1/outputs/hudson_yards/graph.geojson",
+      "sha256": "69ed6f62574fad685415972f20715be767b924e94e86a0553e5ab9ed2e98eb8c",
+      "bytes": 354864
+    },
+    {
+      "original": "experiments/step1/outputs/hudson_yards/shops.geojson",
+      "current": "archive/2026-11-11/experiments/step1/outputs/hudson_yards/shops.geojson",
+      "sha256": "a255de213d3f2db14900e000dab2908935c034e1889eb119d95df0c61270a03a",
+      "bytes": 93360
+    },
+    {
+      "original": "experiments/step1/outputs/metrics.json",
+      "current": "archive/2026-11-11/experiments/step1/outputs/metrics.json",
+      "sha256": "dae452047a1c5bbe8a8d61892768c6222b53893ccf283a810d356e1155020b9b",
+      "bytes": 3014
+    },
+    {
+      "original": "experiments/step1/outputs/soho/buildings.geojson",
+      "current": "archive/2026-11-11/experiments/step1/outputs/soho/buildings.geojson",
+      "sha256": "ec9937648cd9d6996d2afcc3eea407cd7c5cc47910fdc5964a3df4d9ae9aa1de",
+      "bytes": 1642673
+    },
+    {
+      "original": "experiments/step1/outputs/soho/entrances.geojson",
+      "current": "archive/2026-11-11/experiments/step1/outputs/soho/entrances.geojson",
+      "sha256": "ef3097fdfb09eccc0f4748b240196a960f96232ceb5902dd900f1b405e5999e8",
+      "bytes": 827
+    },
+    {
+      "original": "experiments/step1/outputs/soho/graph.geojson",
+      "current": "archive/2026-11-11/experiments/step1/outputs/soho/graph.geojson",
+      "sha256": "7dd1a13f5e03627e981e2e314e6d14b3cb1b8990a58a34c0ca9cd544fb3a8198",
+      "bytes": 461929
+    },
+    {
+      "original": "experiments/step1/outputs/soho/shops.geojson",
+      "current": "archive/2026-11-11/experiments/step1/outputs/soho/shops.geojson",
+      "sha256": "bc4325eb364c030382c0d2007fc5bf975eb08c24c715cb85e269b0081fd72c0b",
+      "bytes": 657164
+    },
+    {
+      "original": "experiments/step1/requirements.txt",
+      "current": "archive/2026-11-11/experiments/step1/requirements.txt",
+      "sha256": "733292dc1a90d0ff9bbfacc356eb63bb6b6c3ae5569e19ff1e4369305dce8331",
+      "bytes": 80
+    },
+    {
+      "original": "experiments/step1/run.py",
+      "current": "archive/2026-11-11/experiments/step1/run.py",
+      "sha256": "3712a8764b1f433cf8dc4eabbaae384a03ab48aafe8562551333d3b6965a053e",
+      "bytes": 13569
+    },
+    {
+      "original": "experiments/step2/.gitignore",
+      "current": "archive/2026-11-11/experiments/step2/.gitignore",
+      "sha256": "bc6c788c6cc650172941861341e4d0cbf7bce04f8d4f52994a16741fa5332fe9",
+      "bytes": 23
+    },
+    {
+      "original": "experiments/step2/README.md",
+      "current": "archive/2026-11-11/experiments/step2/README.md",
+      "sha256": "c35e018fb6877bed60191987bd4cf1881330f39e18397bfd86b5a102156dc848",
+      "bytes": 6163
+    },
+    {
+      "original": "experiments/step2/__pycache__/cluster.cpython-312.pyc",
+      "current": "archive/2026-11-11/experiments/step2/__pycache__/cluster.cpython-312.pyc",
+      "sha256": "fe4f401b82771fa4cd7c6f7fdad58b3566db4badb145ce44c29f037ca89af6a1",
+      "bytes": 35339
+    },
+    {
+      "original": "experiments/step2/__pycache__/embedding.cpython-312.pyc",
+      "current": "archive/2026-11-11/experiments/step2/__pycache__/embedding.cpython-312.pyc",
+      "sha256": "5eb0dc46f8608334c13c93cfb2c6fe2f40fbbd5ee93eb3f7785b1bd90dbdbbe8",
+      "bytes": 18624
+    },
+    {
+      "original": "experiments/step2/cluster.py",
+      "current": "archive/2026-11-11/experiments/step2/cluster.py",
+      "sha256": "d0fb1e52265c52a41d865a4d59feddadb897e43267f53b15391322996cd79dfa",
+      "bytes": 18384
+    },
+    {
+      "original": "experiments/step2/embedding.py",
+      "current": "archive/2026-11-11/experiments/step2/embedding.py",
+      "sha256": "867c1bad2842575eb7dd8fd13f7264e0c03de6eb5c843f7b4b4a07776f26bdcb",
+      "bytes": 10820
+    },
+    {
+      "original": "experiments/step2/outputs/candidate_map.png",
+      "current": "archive/2026-11-11/experiments/step2/outputs/candidate_map.png",
+      "sha256": "427bad8f1d32de4fdfa54369a71357fb56b0a11d1b9e63498edb94cfe222ed5b",
+      "bytes": 554732
+    },
+    {
+      "original": "experiments/step2/outputs/embedding/candidate_map.png",
+      "current": "archive/2026-11-11/experiments/step2/outputs/embedding/candidate_map.png",
+      "sha256": "f4b2403557c3b0ff9b35fe9ecd5eb34ac97847825cb5f8b474cbd2bc133c7d35",
+      "bytes": 249201
+    },
+    {
+      "original": "experiments/step2/outputs/embedding/hudson_yards/block_embeddings.geojson",
+      "current": "archive/2026-11-11/experiments/step2/outputs/embedding/hudson_yards/block_embeddings.geojson",
+      "sha256": "453d8b6b9eb26b5b4e161755f4699e138eea4da44c00d6188f797b72e5272486",
+      "bytes": 80487
+    },
+    {
+      "original": "experiments/step2/outputs/embedding/hudson_yards/candidates.geojson",
+      "current": "archive/2026-11-11/experiments/step2/outputs/embedding/hudson_yards/candidates.geojson",
+      "sha256": "2d9cefdf8756e99ebbfe18318267a45f68b012a03b5b82dece83b2af76dc915c",
+      "bytes": 199134
+    },
+    {
+      "original": "experiments/step2/outputs/embedding/hudson_yards/gateways.geojson",
+      "current": "archive/2026-11-11/experiments/step2/outputs/embedding/hudson_yards/gateways.geojson",
+      "sha256": "b240610218d8025ce109216271f2f3e91842922d5ebb4d91da9b377397f85d2c",
+      "bytes": 212498
+    },
+    {
+      "original": "experiments/step2/outputs/embedding/hudson_yards/neighbor_similarity.geojson",
+      "current": "archive/2026-11-11/experiments/step2/outputs/embedding/hudson_yards/neighbor_similarity.geojson",
+      "sha256": "21509c3e47e8c2d60a58d6eff9bf730a8fd98e14da3f37d6d5c81b5484a6577e",
+      "bytes": 67697
+    },
+    {
+      "original": "experiments/step2/outputs/embedding/metrics.json",
+      "current": "archive/2026-11-11/experiments/step2/outputs/embedding/metrics.json",
+      "sha256": "eee7ad5f13d242786f44f9e2c20320fbc601a71f62bae2509e5de729878a4dda",
+      "bytes": 2631
+    },
+    {
+      "original": "experiments/step2/outputs/embedding/model.json",
+      "current": "archive/2026-11-11/experiments/step2/outputs/embedding/model.json",
+      "sha256": "60f721aab0859a72246c50e19f8787a00527b045128ffd2d07f5a5a63f01c4bf",
+      "bytes": 6362
+    },
+    {
+      "original": "experiments/step2/outputs/embedding/soho/block_embeddings.geojson",
+      "current": "archive/2026-11-11/experiments/step2/outputs/embedding/soho/block_embeddings.geojson",
+      "sha256": "1126e40a2d4351ef638953570192a09a2d32b8803db7fd9b8ca0db9f75a7cc8c",
+      "bytes": 137401
+    },
+    {
+      "original": "experiments/step2/outputs/embedding/soho/candidates.geojson",
+      "current": "archive/2026-11-11/experiments/step2/outputs/embedding/soho/candidates.geojson",
+      "sha256": "fe9bb21e38429e324ca0d1450ef285c0514ffbd70a5356a10e14a6958246dcbe",
+      "bytes": 270940
+    },
+    {
+      "original": "experiments/step2/outputs/embedding/soho/gateways.geojson",
+      "current": "archive/2026-11-11/experiments/step2/outputs/embedding/soho/gateways.geojson",
+      "sha256": "561009e523c771d8c5be4810ae444f709e025b27fdf5249d40f05ebe10e1ba1e",
+      "bytes": 384345
+    },
+    {
+      "original": "experiments/step2/outputs/embedding/soho/neighbor_similarity.geojson",
+      "current": "archive/2026-11-11/experiments/step2/outputs/embedding/soho/neighbor_similarity.geojson",
+      "sha256": "c3dda67a85569c94bb07fb228f1a6337e486221080101c69461a256d33b79281",
+      "bytes": 115101
+    },
+    {
+      "original": "experiments/step2/outputs/hudson_yards/adjacency.geojson",
+      "current": "archive/2026-11-11/experiments/step2/outputs/hudson_yards/adjacency.geojson",
+      "sha256": "bbdbb122d0e3ad639aeefc6a06fad71a587ee56e8237c2d0762d2284bcce128e",
+      "bytes": 64232
+    },
+    {
+      "original": "experiments/step2/outputs/hudson_yards/blocks.geojson",
+      "current": "archive/2026-11-11/experiments/step2/outputs/hudson_yards/blocks.geojson",
+      "sha256": "501ec4c0aaf8ccc74025d86db636d7e0e3acd78ec35971e8b725cf418545c28e",
+      "bytes": 114022
+    },
+    {
+      "original": "experiments/step2/outputs/hudson_yards/candidates.geojson",
+      "current": "archive/2026-11-11/experiments/step2/outputs/hudson_yards/candidates.geojson",
+      "sha256": "1705f4863fcc0d8d049333223d2f564ad42a27b26ef442df2503591e1b80cd87",
+      "bytes": 130897
+    },
+    {
+      "original": "experiments/step2/outputs/hudson_yards/gateways.geojson",
+      "current": "archive/2026-11-11/experiments/step2/outputs/hudson_yards/gateways.geojson",
+      "sha256": "0c8bd76b96b032d28b4ab425151e6a2892f8c4abb039d1b84eb3bc6bd478e504",
+      "bytes": 145611
+    },
+    {
+      "original": "experiments/step2/outputs/hudson_yards/merges.json",
+      "current": "archive/2026-11-11/experiments/step2/outputs/hudson_yards/merges.json",
+      "sha256": "78700e30ca86fe0b52a387b480646ca9072b3514dc6d429cf3382eaabcd675e3",
+      "bytes": 4700
+    },
+    {
+      "original": "experiments/step2/outputs/hudson_yards/network.geojson",
+      "current": "archive/2026-11-11/experiments/step2/outputs/hudson_yards/network.geojson",
+      "sha256": "5ccae441e75f2de00b35fc5af96d56fd4b17bfd3ed895fc9f02c7b1f670e4685",
+      "bytes": 445502
+    },
+    {
+      "original": "experiments/step2/outputs/hudson_yards/road_strips.geojson",
+      "current": "archive/2026-11-11/experiments/step2/outputs/hudson_yards/road_strips.geojson",
+      "sha256": "d10436dda0aa5d223fcd013110b90ecece9dc33a49ea794d2c95ea81e37cc94f",
+      "bytes": 10012
+    },
+    {
+      "original": "experiments/step2/outputs/metrics.json",
+      "current": "archive/2026-11-11/experiments/step2/outputs/metrics.json",
+      "sha256": "880e62a3f27e8a48267a68b7308de17bdfafea7a8923b9ca292cbe251e2d552e",
+      "bytes": 3966
+    },
+    {
+      "original": "experiments/step2/outputs/soho/adjacency.geojson",
+      "current": "archive/2026-11-11/experiments/step2/outputs/soho/adjacency.geojson",
+      "sha256": "c0c5c4bf8560360e424b2be9567864fc91c04df30edb7cc57e7a6c299695d600",
+      "bytes": 107308
+    },
+    {
+      "original": "experiments/step2/outputs/soho/blocks.geojson",
+      "current": "archive/2026-11-11/experiments/step2/outputs/soho/blocks.geojson",
+      "sha256": "f203fc48ebd43e0ab562ab4730cb26684db845efbbec78a3bbd6fcb38f80806a",
+      "bytes": 152622
+    },
+    {
+      "original": "experiments/step2/outputs/soho/candidates.geojson",
+      "current": "archive/2026-11-11/experiments/step2/outputs/soho/candidates.geojson",
+      "sha256": "09ca8a7801275c4d30af297dfe6d5e18cc4ccc9863537cd6b716f2039c70ee23",
+      "bytes": 182813
+    },
+    {
+      "original": "experiments/step2/outputs/soho/gateways.geojson",
+      "current": "archive/2026-11-11/experiments/step2/outputs/soho/gateways.geojson",
+      "sha256": "4a49ac8809dc5da2c7f60eb04dc0c5d6b0443e9f6e932d85851a109dc7ddc2b7",
+      "bytes": 289665
+    },
+    {
+      "original": "experiments/step2/outputs/soho/merges.json",
+      "current": "archive/2026-11-11/experiments/step2/outputs/soho/merges.json",
+      "sha256": "cac04b22ce317d80861dbd5e367cd7b50afe7afd19694aa468872597e2b656fe",
+      "bytes": 10652
+    },
+    {
+      "original": "experiments/step2/outputs/soho/network.geojson",
+      "current": "archive/2026-11-11/experiments/step2/outputs/soho/network.geojson",
+      "sha256": "7e5b0e29da89639d567347b3d919808263961c27664cbbda3ef3eb005823399f",
+      "bytes": 605898
+    },
+    {
+      "original": "experiments/step2/outputs/soho/road_strips.geojson",
+      "current": "archive/2026-11-11/experiments/step2/outputs/soho/road_strips.geojson",
+      "sha256": "f4ec70067c7e4edd625d86cbf19d0ae8f31da73ac0cac97bd6b04d9ab5688724",
+      "bytes": 14512
+    },
+    {
+      "original": "experiments/step2/plot.py",
+      "current": "archive/2026-11-11/experiments/step2/plot.py",
+      "sha256": "12f3349e4e9c2da619dfaab2c8008743ba42622a22935aedfec9d55c9a16547e",
+      "bytes": 7731
+    },
+    {
+      "original": "experiments/step3/.gitignore",
+      "current": "archive/2026-11-11/experiments/step3/.gitignore",
+      "sha256": "bc6c788c6cc650172941861341e4d0cbf7bce04f8d4f52994a16741fa5332fe9",
+      "bytes": 23
+    },
+    {
+      "original": "experiments/step3/README.md",
+      "current": "archive/2026-11-11/experiments/step3/README.md",
+      "sha256": "440f75794c63bba219fcfd94f7c5f2316f3cca3d845ea04087cfd4d46e5acb70",
+      "bytes": 13426
+    },
+    {
+      "original": "experiments/step3/__pycache__/audit_tuning.cpython-312.pyc",
+      "current": "archive/2026-11-11/experiments/step3/__pycache__/audit_tuning.cpython-312.pyc",
+      "sha256": "d5332f621f0491c3c08ffcf59aeeb652f6a50cd68cd76bbcfa0d8f7d5711cc7a",
+      "bytes": 14134
+    },
+    {
+      "original": "experiments/step3/__pycache__/building_auxiliary.cpython-312.pyc",
+      "current": "archive/2026-11-11/experiments/step3/__pycache__/building_auxiliary.cpython-312.pyc",
+      "sha256": "9d02ed462f3a0c57d7dc84519a73bb34fd3088cd03652904e46cf597d06698f7",
+      "bytes": 21779
+    },
+    {
+      "original": "experiments/step3/__pycache__/data.cpython-312.pyc",
+      "current": "archive/2026-11-11/experiments/step3/__pycache__/data.cpython-312.pyc",
+      "sha256": "5c51e3eea7f531cc46251577b14671ccfb776aa050e13aeabf2a13e5d705b4f7",
+      "bytes": 16398
+    },
+    {
+      "original": "experiments/step3/__pycache__/model.cpython-312.pyc",
+      "current": "archive/2026-11-11/experiments/step3/__pycache__/model.cpython-312.pyc",
+      "sha256": "8930fb48802f317ec0f0b20b003ff4f970e13b0d7ca77b5de185faee492954b4",
+      "bytes": 6664
+    },
+    {
+      "original": "experiments/step3/__pycache__/rgscl.cpython-312.pyc",
+      "current": "archive/2026-11-11/experiments/step3/__pycache__/rgscl.cpython-312.pyc",
+      "sha256": "239d1d04b50805b163c9069f6bf2da8d49d2e2d239006912a0ff6abb0d6c0e22",
+      "bytes": 29848
+    },
+    {
+      "original": "experiments/step3/__pycache__/run.cpython-312.pyc",
+      "current": "archive/2026-11-11/experiments/step3/__pycache__/run.cpython-312.pyc",
+      "sha256": "b507ee66c91bb1db882488b0ceb0b6254b631d57f23d55b7cbd55756da995477",
+      "bytes": 11463
+    },
+    {
+      "original": "experiments/step3/__pycache__/tune.cpython-312.pyc",
+      "current": "archive/2026-11-11/experiments/step3/__pycache__/tune.cpython-312.pyc",
+      "sha256": "160b8639f5db4ea4a02bcd3f2a7f401c578d819f88ead1f138a1df3375d68b60",
+      "bytes": 10215
+    },
+    {
+      "original": "experiments/step3/audit_tuning.py",
+      "current": "archive/2026-11-11/experiments/step3/audit_tuning.py",
+      "sha256": "876357e3da8c2f13973416671f79725bf474fe4156da9a31f7215a51e2be6da7",
+      "bytes": 8716
+    },
+    {
+      "original": "experiments/step3/building_auxiliary.py",
+      "current": "archive/2026-11-11/experiments/step3/building_auxiliary.py",
+      "sha256": "6f5d5bc777ca31d821d386a2dce009bce183cdcb6c5874c715986a72c247afeb",
+      "bytes": 12972
+    },
+    {
+      "original": "experiments/step3/data.py",
+      "current": "archive/2026-11-11/experiments/step3/data.py",
+      "sha256": "94f0e2ecd16f75a1e32396f3e9a1a437b2596cce71dfe95ac69c8f650feaf697",
+      "bytes": 8422
+    },
+    {
+      "original": "experiments/step3/model.py",
+      "current": "archive/2026-11-11/experiments/step3/model.py",
+      "sha256": "8d7512bd1a830163ee53d8d81908db9856539256dd1895a5cbee88a8e7e3140a",
+      "bytes": 3639
+    },
+    {
+      "original": "experiments/step3/outputs/building_auxiliary/hudson_yards_predictions.json",
+      "current": "archive/2026-11-11/experiments/step3/outputs/building_auxiliary/hudson_yards_predictions.json",
+      "sha256": "9eebb26e176d3764a0f93a3dc4d88645ecd5ee4a9c96b90c8dea4989ff3f33b1",
+      "bytes": 13679
+    },
+    {
+      "original": "experiments/step3/outputs/building_auxiliary/hudson_yards_selection.json",
+      "current": "archive/2026-11-11/experiments/step3/outputs/building_auxiliary/hudson_yards_selection.json",
+      "sha256": "cb59b57693284ca4946946307fc62d76adcf5659682ff6551c945a0180da63f5",
+      "bytes": 3096
+    },
+    {
+      "original": "experiments/step3/outputs/building_auxiliary/metrics.json",
+      "current": "archive/2026-11-11/experiments/step3/outputs/building_auxiliary/metrics.json",
+      "sha256": "a12f81b0ed4a80f513d20b0b68c8f782ce226a3903ae4fe7c97adf0b53ed969d",
+      "bytes": 9723
+    },
+    {
+      "original": "experiments/step3/outputs/building_auxiliary/soho_predictions.json",
+      "current": "archive/2026-11-11/experiments/step3/outputs/building_auxiliary/soho_predictions.json",
+      "sha256": "03c57085b506e449efadbb4ac921d27c7250faa7eec824d22673a138bf5d5f06",
+      "bytes": 67882
+    },
+    {
+      "original": "experiments/step3/outputs/building_auxiliary/soho_selection.json",
+      "current": "archive/2026-11-11/experiments/step3/outputs/building_auxiliary/soho_selection.json",
+      "sha256": "c8709aa67d771dc6a112e9c9c584f4e2c271eb469a494e573293a594d7ede47c",
+      "bytes": 4822
+    },
+    {
+      "original": "experiments/step3/outputs/hudson_yards_predictions.json",
+      "current": "archive/2026-11-11/experiments/step3/outputs/hudson_yards_predictions.json",
+      "sha256": "e65a04cea8b08c3285b5cdfd0192564afe35152c49c80fcc5225bbda53de155f",
+      "bytes": 26008
+    },
+    {
+      "original": "experiments/step3/outputs/metrics.json",
+      "current": "archive/2026-11-11/experiments/step3/outputs/metrics.json",
+      "sha256": "a3f5c775d0ef3f41e0562d2f5c0fe20b45784f0f97072529a88edc034fb0b0be",
+      "bytes": 1745
+    },
+    {
+      "original": "experiments/step3/outputs/rgscl/hudson_yards_predictions.json",
+      "current": "archive/2026-11-11/experiments/step3/outputs/rgscl/hudson_yards_predictions.json",
+      "sha256": "8314aa758c8a0240b2873d55fb5c00026cb8236e84047344a4ddc847fde8d4b6",
+      "bytes": 18030
+    },
+    {
+      "original": "experiments/step3/outputs/rgscl/hudson_yards_selection.json",
+      "current": "archive/2026-11-11/experiments/step3/outputs/rgscl/hudson_yards_selection.json",
+      "sha256": "e37d5f7d9263a82bde815984a5cd289a1ffbbe846e1a7b65538e996fcd8a5f8f",
+      "bytes": 3966
+    },
+    {
+      "original": "experiments/step3/outputs/rgscl/metrics.json",
+      "current": "archive/2026-11-11/experiments/step3/outputs/rgscl/metrics.json",
+      "sha256": "e5ca0b2ce9d73825eaa0ddf00c4d344a28bd059d821c9ae24484d943a8a5cde2",
+      "bytes": 7335
+    },
+    {
+      "original": "experiments/step3/outputs/rgscl/soho_predictions.json",
+      "current": "archive/2026-11-11/experiments/step3/outputs/rgscl/soho_predictions.json",
+      "sha256": "4ad63cec64a507f7e01fc38dcb88216c9e83a8444b109c105f98b01f811328ba",
+      "bytes": 88522
+    },
+    {
+      "original": "experiments/step3/outputs/rgscl/soho_selection.json",
+      "current": "archive/2026-11-11/experiments/step3/outputs/rgscl/soho_selection.json",
+      "sha256": "588055097410210ab4316b0186752984acdc2a6195811e1d69b1f8179c163dea",
+      "bytes": 5337
+    },
+    {
+      "original": "experiments/step3/outputs/soho_predictions.json",
+      "current": "archive/2026-11-11/experiments/step3/outputs/soho_predictions.json",
+      "sha256": "a8dfc4ec2d8dba983bcc4657db901afa8c2c3df032270a1e556a909e877bef82",
+      "bytes": 125513
+    },
+    {
+      "original": "experiments/step3/outputs/tuning/hudson_yards_predictions.json",
+      "current": "archive/2026-11-11/experiments/step3/outputs/tuning/hudson_yards_predictions.json",
+      "sha256": "8cb6c6d584584dbeb44c0ee9d0e0ddf95a622d6a574449704fec8ad663885402",
+      "bytes": 6019
+    },
+    {
+      "original": "experiments/step3/outputs/tuning/metrics.json",
+      "current": "archive/2026-11-11/experiments/step3/outputs/tuning/metrics.json",
+      "sha256": "0ef123272752e3c71d54ced5d946a841d69023cc756f3daf07fed21b1f0ce96d",
+      "bytes": 8864
+    },
+    {
+      "original": "experiments/step3/outputs/tuning/soho_predictions.json",
+      "current": "archive/2026-11-11/experiments/step3/outputs/tuning/soho_predictions.json",
+      "sha256": "a2d1bd67d493f11c28c733f20078875e25c16634611ed1a133637e1c3705b1a7",
+      "bytes": 29987
+    },
+    {
+      "original": "experiments/step3/outputs/tuning_audit/hudson_yards_predictions.json",
+      "current": "archive/2026-11-11/experiments/step3/outputs/tuning_audit/hudson_yards_predictions.json",
+      "sha256": "399b71b18483b163218147197ebd8661ab36670fd48dc3a3fd4a833a88711fcd",
+      "bytes": 6028
+    },
+    {
+      "original": "experiments/step3/outputs/tuning_audit/hudson_yards_selection.json",
+      "current": "archive/2026-11-11/experiments/step3/outputs/tuning_audit/hudson_yards_selection.json",
+      "sha256": "8961f6c2d85969cdb3dc9ec60136fe72f46fded6ffac0953a5593e4052ed5631",
+      "bytes": 11921
+    },
+    {
+      "original": "experiments/step3/outputs/tuning_audit/metrics.json",
+      "current": "archive/2026-11-11/experiments/step3/outputs/tuning_audit/metrics.json",
+      "sha256": "a9f722d4d0ef869f8f118a36b1deb9f664bddb57fd7d5328e6382e8352d7f947",
+      "bytes": 4563
+    },
+    {
+      "original": "experiments/step3/outputs/tuning_audit/soho_predictions.json",
+      "current": "archive/2026-11-11/experiments/step3/outputs/tuning_audit/soho_predictions.json",
+      "sha256": "96d4518bdaa16ce6e2ee43772e8b143de5f473fed08fe86ebc0c5fff84121d45",
+      "bytes": 29977
+    },
+    {
+      "original": "experiments/step3/outputs/tuning_audit/soho_selection.json",
+      "current": "archive/2026-11-11/experiments/step3/outputs/tuning_audit/soho_selection.json",
+      "sha256": "945a10b96acd39466a9c554091e8034db898fa6cebedeefb63f60d3cad2fd875",
+      "bytes": 13737
+    },
+    {
+      "original": "experiments/step3/requirements.txt",
+      "current": "archive/2026-11-11/experiments/step3/requirements.txt",
+      "sha256": "8fcaac5a24ba50603e0eb88374bc162081f1efc4a97d148f7557c70d8a2a719e",
+      "bytes": 66
+    },
+    {
+      "original": "experiments/step3/rgscl.py",
+      "current": "archive/2026-11-11/experiments/step3/rgscl.py",
+      "sha256": "c222fcccda6d6c9ae029bb70464bca1d0b0c1f1a771d125136497679e318a3d9",
+      "bytes": 16437
+    },
+    {
+      "original": "experiments/step3/run.py",
+      "current": "archive/2026-11-11/experiments/step3/run.py",
+      "sha256": "2885265dbec0d1228daa0e442da8a911d4af52d7cf1c12ec0924e2eb37802d7b",
+      "bytes": 5678
+    },
+    {
+      "original": "experiments/step3/tune.py",
+      "current": "archive/2026-11-11/experiments/step3/tune.py",
+      "sha256": "c9f705cf762f6ec2bf8194f7d04fc0da5e4ca82fe602cf04ce60de255635aacb",
+      "bytes": 5763
+    }
+  ],
+  "links": {
+    "experiments/step1/data": "data/raw/nyc/2026-11-09",
+    "references": "references"
+  }
+}

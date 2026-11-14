@@ -1,0 +1,1793 @@
+[
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b046"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b049"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b063"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S2",
+    "triplet_id": "t0059"
+  },
+  {
+    "anchor": {
+      "area": "hudson_yards",
+      "block": "b015"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b052"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b061"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S2",
+    "triplet_id": "t0037"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b079"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b029"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b020"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "repeat_of": "t0039",
+    "stratum": "S2",
+    "triplet_id": "t0091"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b075"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b062"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b074"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S1",
+    "triplet_id": "t0030"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b015"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b022"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b028"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S2",
+    "triplet_id": "t0038"
+  },
+  {
+    "anchor": {
+      "area": "hudson_yards",
+      "block": "b026"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b054"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b070"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S1",
+    "triplet_id": "t0005"
+  },
+  {
+    "anchor": {
+      "area": "hudson_yards",
+      "block": "b017"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b047"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b056"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S1",
+    "triplet_id": "t0014"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b033"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b012"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b067"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S1",
+    "triplet_id": "t0022"
+  },
+  {
+    "anchor": {
+      "area": "hudson_yards",
+      "block": "b017"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b047"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b018"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "repeat_of": "t0004",
+    "stratum": "S1",
+    "triplet_id": "t0093"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b031"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b012"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b052"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S3",
+    "triplet_id": "t0078"
+  },
+  {
+    "anchor": {
+      "area": "hudson_yards",
+      "block": "b005"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b012"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b020"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S3",
+    "triplet_id": "t0071"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b071"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b052"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b061"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S2",
+    "triplet_id": "t0057"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b062"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b039"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b041"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S3",
+    "triplet_id": "t0073"
+  },
+  {
+    "anchor": {
+      "area": "hudson_yards",
+      "block": "b034"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b015"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b074"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S2",
+    "triplet_id": "t0043"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b074"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b041"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b043"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S2",
+    "triplet_id": "t0036"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b013"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b028"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b020"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "repeat_of": "t0090",
+    "stratum": "S3",
+    "triplet_id": "t0097"
+  },
+  {
+    "anchor": {
+      "area": "hudson_yards",
+      "block": "b014"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b007"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b012"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S3",
+    "triplet_id": "t0083"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b070"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b042"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b057"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S1",
+    "triplet_id": "t0028"
+  },
+  {
+    "anchor": {
+      "area": "hudson_yards",
+      "block": "b031"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b009"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b022"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S2",
+    "triplet_id": "t0032"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b020"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b028"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b060"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S3",
+    "triplet_id": "t0089"
+  },
+  {
+    "anchor": {
+      "area": "hudson_yards",
+      "block": "b022"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b018"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b036"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S1",
+    "triplet_id": "t0015"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b021"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b042"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b032"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "repeat_of": "t0085",
+    "stratum": "S3",
+    "triplet_id": "t0099"
+  },
+  {
+    "anchor": {
+      "area": "hudson_yards",
+      "block": "b017"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b018"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b047"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S1",
+    "triplet_id": "t0004"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b011"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b008"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b016"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S3",
+    "triplet_id": "t0065"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b066"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b016"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b043"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S3",
+    "triplet_id": "t0075"
+  },
+  {
+    "anchor": {
+      "area": "hudson_yards",
+      "block": "b007"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b018"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b027"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S3",
+    "triplet_id": "t0087"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b078"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b006"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b018"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S3",
+    "triplet_id": "t0074"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b078"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b011"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b069"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S2",
+    "triplet_id": "t0054"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b075"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b004"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b019"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S3",
+    "triplet_id": "t0080"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b046"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b053"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b067"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S1",
+    "triplet_id": "t0026"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b025"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b031"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b036"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S2",
+    "triplet_id": "t0033"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b019"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b031"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b036"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S2",
+    "triplet_id": "t0034"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b050"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b053"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b061"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S3",
+    "triplet_id": "t0084"
+  },
+  {
+    "anchor": {
+      "area": "hudson_yards",
+      "block": "b026"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b012"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b039"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S2",
+    "triplet_id": "t0051"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b035"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b019"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b025"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S1",
+    "triplet_id": "t0010"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b013"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b032"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b077"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S1",
+    "triplet_id": "t0019"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b023"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b005"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b016"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S3",
+    "triplet_id": "t0068"
+  },
+  {
+    "anchor": {
+      "area": "hudson_yards",
+      "block": "b012"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b036"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b047"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S1",
+    "triplet_id": "t0009"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b031"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b052"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b012"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "repeat_of": "t0078",
+    "stratum": "S3",
+    "triplet_id": "t0101"
+  },
+  {
+    "anchor": {
+      "area": "hudson_yards",
+      "block": "b027"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b024"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b025"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S3",
+    "triplet_id": "t0072"
+  },
+  {
+    "anchor": {
+      "area": "hudson_yards",
+      "block": "b022"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b036"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b047"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S1",
+    "triplet_id": "t0001"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b068"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b028"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b043"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S3",
+    "triplet_id": "t0063"
+  },
+  {
+    "anchor": {
+      "area": "hudson_yards",
+      "block": "b015"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b052"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b061"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S2",
+    "triplet_id": "t0045"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b059"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b028"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b067"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S1",
+    "triplet_id": "t0017"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b079"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b020"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b029"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S2",
+    "triplet_id": "t0040"
+  },
+  {
+    "anchor": {
+      "area": "hudson_yards",
+      "block": "b041"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b023"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b017"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "repeat_of": "t0046",
+    "stratum": "S2",
+    "triplet_id": "t0105"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b011"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b044"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b064"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S2",
+    "triplet_id": "t0052"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b071"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b011"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b025"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S3",
+    "triplet_id": "t0062"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b048"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b035"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b077"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S1",
+    "triplet_id": "t0016"
+  },
+  {
+    "anchor": {
+      "area": "hudson_yards",
+      "block": "b019"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b012"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b067"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S1",
+    "triplet_id": "t0008"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b019"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b031"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b036"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S2",
+    "triplet_id": "t0035"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b014"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b009"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b016"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S2",
+    "triplet_id": "t0048"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b041"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b044"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b079"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S3",
+    "triplet_id": "t0076"
+  },
+  {
+    "anchor": {
+      "area": "hudson_yards",
+      "block": "b011"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b017"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b043"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S2",
+    "triplet_id": "t0056"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b030"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b067"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b029"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "repeat_of": "t0021",
+    "stratum": "S1",
+    "triplet_id": "t0103"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b056"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b018"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b036"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S1",
+    "triplet_id": "t0029"
+  },
+  {
+    "anchor": {
+      "area": "hudson_yards",
+      "block": "b005"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b021"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b034"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S3",
+    "triplet_id": "t0061"
+  },
+  {
+    "anchor": {
+      "area": "hudson_yards",
+      "block": "b034"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b015"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b074"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S2",
+    "triplet_id": "t0041"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b021"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b032"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b042"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S3",
+    "triplet_id": "t0085"
+  },
+  {
+    "anchor": {
+      "area": "hudson_yards",
+      "block": "b040"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b042"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b065"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S1",
+    "triplet_id": "t0003"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b035"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b019"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b025"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S1",
+    "triplet_id": "t0007"
+  },
+  {
+    "anchor": {
+      "area": "hudson_yards",
+      "block": "b027"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b007"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b016"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S2",
+    "triplet_id": "t0050"
+  },
+  {
+    "anchor": {
+      "area": "hudson_yards",
+      "block": "b040"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b006"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b018"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S2",
+    "triplet_id": "t0053"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b066"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b054"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b070"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S1",
+    "triplet_id": "t0027"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b013"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b019"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b025"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S1",
+    "triplet_id": "t0012"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b053"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b026"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b029"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S3",
+    "triplet_id": "t0069"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b050"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b023"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b049"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S2",
+    "triplet_id": "t0049"
+  },
+  {
+    "anchor": {
+      "area": "hudson_yards",
+      "block": "b041"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b017"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b023"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S2",
+    "triplet_id": "t0046"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b079"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b020"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b029"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S2",
+    "triplet_id": "t0042"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b079"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b020"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b029"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S2",
+    "triplet_id": "t0039"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b072"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b009"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b018"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S3",
+    "triplet_id": "t0077"
+  },
+  {
+    "anchor": {
+      "area": "hudson_yards",
+      "block": "b035"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b054"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b057"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S1",
+    "triplet_id": "t0002"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b019"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b022"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b025"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S2",
+    "triplet_id": "t0055"
+  },
+  {
+    "anchor": {
+      "area": "hudson_yards",
+      "block": "b005"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b034"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b021"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "repeat_of": "t0061",
+    "stratum": "S3",
+    "triplet_id": "t0095"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b024"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b049"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b062"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S3",
+    "triplet_id": "t0086"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b072"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b043"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b077"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S1",
+    "triplet_id": "t0023"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b037"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b044"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b069"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S3",
+    "triplet_id": "t0079"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b022"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b016"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b025"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S2",
+    "triplet_id": "t0060"
+  },
+  {
+    "anchor": {
+      "area": "hudson_yards",
+      "block": "b006"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b011"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b041"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S2",
+    "triplet_id": "t0047"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b057"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b054"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b065"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S1",
+    "triplet_id": "t0018"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b078"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b016"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b035"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S3",
+    "triplet_id": "t0082"
+  },
+  {
+    "anchor": {
+      "area": "hudson_yards",
+      "block": "b015"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b052"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b061"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S2",
+    "triplet_id": "t0044"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b046"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b036"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b039"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S3",
+    "triplet_id": "t0066"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b030"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b029"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b067"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S1",
+    "triplet_id": "t0021"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b032"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b014"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b022"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S3",
+    "triplet_id": "t0064"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b037"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b015"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b018"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S3",
+    "triplet_id": "t0070"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b035"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b019"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b025"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S1",
+    "triplet_id": "t0011"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b024"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b055"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b077"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S1",
+    "triplet_id": "t0020"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b048"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b055"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b077"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S1",
+    "triplet_id": "t0024"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b055"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b057"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b073"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S3",
+    "triplet_id": "t0088"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b056"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b032"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b034"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S3",
+    "triplet_id": "t0067"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b009"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b031"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b036"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S2",
+    "triplet_id": "t0031"
+  },
+  {
+    "anchor": {
+      "area": "hudson_yards",
+      "block": "b012"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b036"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b047"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S1",
+    "triplet_id": "t0006"
+  },
+  {
+    "anchor": {
+      "area": "hudson_yards",
+      "block": "b035"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b054"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b057"
+    },
+    "cross_area": true,
+    "fallback": false,
+    "stratum": "S1",
+    "triplet_id": "t0013"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b075"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b042"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b074"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S1",
+    "triplet_id": "t0025"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b053"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b072"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b079"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S3",
+    "triplet_id": "t0081"
+  },
+  {
+    "anchor": {
+      "area": "hudson_yards",
+      "block": "b027"
+    },
+    "b": {
+      "area": "hudson_yards",
+      "block": "b016"
+    },
+    "c": {
+      "area": "hudson_yards",
+      "block": "b028"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S2",
+    "triplet_id": "t0058"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b072"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b077"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b043"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "repeat_of": "t0023",
+    "stratum": "S1",
+    "triplet_id": "t0107"
+  },
+  {
+    "anchor": {
+      "area": "soho",
+      "block": "b013"
+    },
+    "b": {
+      "area": "soho",
+      "block": "b020"
+    },
+    "c": {
+      "area": "soho",
+      "block": "b028"
+    },
+    "cross_area": false,
+    "fallback": false,
+    "stratum": "S3",
+    "triplet_id": "t0090"
+  }
+]

@@ -1,0 +1,2161 @@
+[
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0037",
+    "triplet_id": "t0068"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0028",
+    "triplet_id": "t0054"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0069",
+    "triplet_id": "t0042"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0016",
+    "triplet_id": "t0097"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0077",
+    "triplet_id": "t0079"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0044",
+    "triplet_id": "t0017"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0012",
+    "triplet_id": "t0057"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0011",
+    "triplet_id": "t0071"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0034",
+    "triplet_id": "t0051"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0083",
+    "triplet_id": "t0066"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0054",
+    "triplet_id": "t0056"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0040",
+    "triplet_id": "t0072"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0093",
+    "triplet_id": "t0006"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0030",
+    "triplet_id": "t0026"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0031",
+    "triplet_id": "t0033"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0099",
+    "triplet_id": "t0090"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0079",
+    "triplet_id": "t0047"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0078",
+    "triplet_id": "t0060"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0001",
+    "triplet_id": "t0059"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0083",
+    "triplet_id": "t0066"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0018",
+    "triplet_id": "t0028"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0080",
+    "triplet_id": "t0018"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0002",
+    "triplet_id": "t0037"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0021",
+    "triplet_id": "t0015"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0013",
+    "triplet_id": "t0073"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0068",
+    "triplet_id": "t0046"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0020",
+    "triplet_id": "t0089"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0089",
+    "triplet_id": "t0024"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0010",
+    "triplet_id": "t0078"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0081",
+    "triplet_id": "t0082"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0018",
+    "triplet_id": "t0028"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0025",
+    "triplet_id": "t0075"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0055",
+    "triplet_id": "t0103"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0059",
+    "triplet_id": "t0085"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0025",
+    "triplet_id": "t0075"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0073",
+    "triplet_id": "t0055"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0028",
+    "triplet_id": "t0054"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0039",
+    "triplet_id": "t0101"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0302",
+    "repeat_of": "q0082",
+    "triplet_id": "t0044"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0067",
+    "triplet_id": "t0049"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0046",
+    "triplet_id": "t0105"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0053",
+    "triplet_id": "t0076"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0074",
+    "triplet_id": "t0095"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0091",
+    "triplet_id": "t0067"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0082",
+    "triplet_id": "t0044"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0027",
+    "triplet_id": "t0074"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0055",
+    "triplet_id": "t0103"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0041",
+    "triplet_id": "t0001"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0035",
+    "triplet_id": "t0010"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0006",
+    "triplet_id": "t0005"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0017",
+    "triplet_id": "t0083"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0045",
+    "triplet_id": "t0040"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0086",
+    "triplet_id": "t0070"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0072",
+    "triplet_id": "t0002"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0057",
+    "triplet_id": "t0061"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0064",
+    "triplet_id": "t0027"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0022",
+    "triplet_id": "t0099"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0083",
+    "triplet_id": "t0066"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0050",
+    "triplet_id": "t0008"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0066",
+    "triplet_id": "t0069"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0008",
+    "triplet_id": "t0022"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0004",
+    "triplet_id": "t0030"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0068",
+    "triplet_id": "t0046"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0072",
+    "triplet_id": "t0002"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0012",
+    "triplet_id": "t0057"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0037",
+    "triplet_id": "t0068"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0099",
+    "triplet_id": "t0090"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0051",
+    "triplet_id": "t0035"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0074",
+    "triplet_id": "t0095"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0010",
+    "triplet_id": "t0078"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0096",
+    "triplet_id": "t0081"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0096",
+    "triplet_id": "t0081"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0069",
+    "triplet_id": "t0042"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0058",
+    "triplet_id": "t0041"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0007",
+    "triplet_id": "t0014"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0081",
+    "triplet_id": "t0082"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0098",
+    "triplet_id": "t0107"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0084",
+    "triplet_id": "t0021"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0062",
+    "triplet_id": "t0050"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0080",
+    "triplet_id": "t0018"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0088",
+    "triplet_id": "t0020"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0029",
+    "triplet_id": "t0080"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0016",
+    "triplet_id": "t0097"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0040",
+    "triplet_id": "t0072"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0058",
+    "triplet_id": "t0041"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0300",
+    "repeat_of": "q0005",
+    "triplet_id": "t0038"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0071",
+    "triplet_id": "t0077"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0094",
+    "triplet_id": "t0013"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0018",
+    "triplet_id": "t0028"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0004",
+    "triplet_id": "t0030"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0008",
+    "triplet_id": "t0022"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0071",
+    "triplet_id": "t0077"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0097",
+    "triplet_id": "t0058"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0013",
+    "triplet_id": "t0073"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0023",
+    "triplet_id": "t0004"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0033",
+    "triplet_id": "t0084"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0034",
+    "triplet_id": "t0051"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0048",
+    "triplet_id": "t0062"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0015",
+    "triplet_id": "t0036"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0019",
+    "triplet_id": "t0032"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0003",
+    "triplet_id": "t0091"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0038",
+    "triplet_id": "t0009"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0090",
+    "triplet_id": "t0088"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0087",
+    "triplet_id": "t0011"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0061",
+    "triplet_id": "t0007"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0304",
+    "repeat_of": "q0028",
+    "triplet_id": "t0054"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0087",
+    "triplet_id": "t0011"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0082",
+    "triplet_id": "t0044"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0061",
+    "triplet_id": "t0007"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0005",
+    "triplet_id": "t0038"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0098",
+    "triplet_id": "t0107"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0044",
+    "triplet_id": "t0017"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0020",
+    "triplet_id": "t0089"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0059",
+    "triplet_id": "t0085"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0049",
+    "triplet_id": "t0016"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0067",
+    "triplet_id": "t0049"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0079",
+    "triplet_id": "t0047"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0086",
+    "triplet_id": "t0070"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0048",
+    "triplet_id": "t0062"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0050",
+    "triplet_id": "t0008"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0027",
+    "triplet_id": "t0074"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0026",
+    "triplet_id": "t0087"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0091",
+    "triplet_id": "t0067"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0042",
+    "triplet_id": "t0063"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0033",
+    "triplet_id": "t0084"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0032",
+    "triplet_id": "t0034"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0003",
+    "triplet_id": "t0091"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0089",
+    "triplet_id": "t0024"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0064",
+    "triplet_id": "t0027"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0030",
+    "triplet_id": "t0026"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0049",
+    "triplet_id": "t0016"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0085",
+    "triplet_id": "t0064"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0042",
+    "triplet_id": "t0063"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0036",
+    "triplet_id": "t0019"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0039",
+    "triplet_id": "t0101"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0075",
+    "triplet_id": "t0086"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0316",
+    "repeat_of": "q0008",
+    "triplet_id": "t0022"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0066",
+    "triplet_id": "t0069"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0057",
+    "triplet_id": "t0061"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0006",
+    "triplet_id": "t0005"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0080",
+    "triplet_id": "t0018"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0084",
+    "triplet_id": "t0021"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0056",
+    "triplet_id": "t0029"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0007",
+    "triplet_id": "t0014"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0074",
+    "triplet_id": "t0095"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0014",
+    "triplet_id": "t0043"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0310",
+    "repeat_of": "q0078",
+    "triplet_id": "t0060"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0031",
+    "triplet_id": "t0033"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0078",
+    "triplet_id": "t0060"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0097",
+    "triplet_id": "t0058"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0024",
+    "triplet_id": "t0065"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0021",
+    "triplet_id": "t0015"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0055",
+    "triplet_id": "t0103"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0005",
+    "triplet_id": "t0038"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0070",
+    "triplet_id": "t0039"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0072",
+    "triplet_id": "t0002"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0039",
+    "triplet_id": "t0101"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0009",
+    "triplet_id": "t0093"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0095",
+    "triplet_id": "t0025"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0099",
+    "triplet_id": "t0090"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0001",
+    "triplet_id": "t0059"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0065",
+    "triplet_id": "t0012"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0035",
+    "triplet_id": "t0010"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0314",
+    "repeat_of": "q0017",
+    "triplet_id": "t0083"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0051",
+    "triplet_id": "t0035"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0088",
+    "triplet_id": "t0020"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0043",
+    "triplet_id": "t0045"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0098",
+    "triplet_id": "t0107"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0087",
+    "triplet_id": "t0011"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0094",
+    "triplet_id": "t0013"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0046",
+    "triplet_id": "t0105"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0090",
+    "triplet_id": "t0088"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0056",
+    "triplet_id": "t0029"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0063",
+    "triplet_id": "t0053"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0043",
+    "triplet_id": "t0045"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0060",
+    "triplet_id": "t0003"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0045",
+    "triplet_id": "t0040"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0082",
+    "triplet_id": "t0044"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0070",
+    "triplet_id": "t0039"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0021",
+    "triplet_id": "t0015"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0029",
+    "triplet_id": "t0080"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0069",
+    "triplet_id": "t0042"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0042",
+    "triplet_id": "t0063"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0053",
+    "triplet_id": "t0076"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0035",
+    "triplet_id": "t0010"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0308",
+    "repeat_of": "q0031",
+    "triplet_id": "t0033"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0009",
+    "triplet_id": "t0093"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0064",
+    "triplet_id": "t0027"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0031",
+    "triplet_id": "t0033"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0075",
+    "triplet_id": "t0086"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0038",
+    "triplet_id": "t0009"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0012",
+    "triplet_id": "t0057"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0022",
+    "triplet_id": "t0099"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0096",
+    "triplet_id": "t0081"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0066",
+    "triplet_id": "t0069"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0091",
+    "triplet_id": "t0067"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0092",
+    "triplet_id": "t0031"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0019",
+    "triplet_id": "t0032"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0047",
+    "triplet_id": "t0052"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0007",
+    "triplet_id": "t0014"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0097",
+    "triplet_id": "t0058"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0009",
+    "triplet_id": "t0093"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0298",
+    "repeat_of": "q0052",
+    "triplet_id": "t0048"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0077",
+    "triplet_id": "t0079"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0002",
+    "triplet_id": "t0037"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0034",
+    "triplet_id": "t0051"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0065",
+    "triplet_id": "t0012"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0093",
+    "triplet_id": "t0006"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0024",
+    "triplet_id": "t0065"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0076",
+    "triplet_id": "t0023"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0037",
+    "triplet_id": "t0068"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0003",
+    "triplet_id": "t0091"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0075",
+    "triplet_id": "t0086"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0094",
+    "triplet_id": "t0013"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0023",
+    "triplet_id": "t0004"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0078",
+    "triplet_id": "t0060"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0068",
+    "triplet_id": "t0046"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0048",
+    "triplet_id": "t0062"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0092",
+    "triplet_id": "t0031"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0019",
+    "triplet_id": "t0032"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0013",
+    "triplet_id": "t0073"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0016",
+    "triplet_id": "t0097"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0038",
+    "triplet_id": "t0009"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0036",
+    "triplet_id": "t0019"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0005",
+    "triplet_id": "t0038"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0092",
+    "triplet_id": "t0031"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0011",
+    "triplet_id": "t0071"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0052",
+    "triplet_id": "t0048"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0033",
+    "triplet_id": "t0084"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0051",
+    "triplet_id": "t0035"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0062",
+    "triplet_id": "t0050"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0085",
+    "triplet_id": "t0064"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0076",
+    "triplet_id": "t0023"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0057",
+    "triplet_id": "t0061"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0010",
+    "triplet_id": "t0078"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0049",
+    "triplet_id": "t0016"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0047",
+    "triplet_id": "t0052"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0025",
+    "triplet_id": "t0075"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0073",
+    "triplet_id": "t0055"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0052",
+    "triplet_id": "t0048"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0032",
+    "triplet_id": "t0034"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0040",
+    "triplet_id": "t0072"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0081",
+    "triplet_id": "t0082"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0071",
+    "triplet_id": "t0077"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0043",
+    "triplet_id": "t0045"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0011",
+    "triplet_id": "t0071"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0312",
+    "repeat_of": "q0033",
+    "triplet_id": "t0084"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0046",
+    "triplet_id": "t0105"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0029",
+    "triplet_id": "t0080"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0015",
+    "triplet_id": "t0036"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0084",
+    "triplet_id": "t0021"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0047",
+    "triplet_id": "t0052"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0067",
+    "triplet_id": "t0049"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0086",
+    "triplet_id": "t0070"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0014",
+    "triplet_id": "t0043"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0054",
+    "triplet_id": "t0056"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0027",
+    "triplet_id": "t0074"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0026",
+    "triplet_id": "t0087"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0050",
+    "triplet_id": "t0008"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0054",
+    "triplet_id": "t0056"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0023",
+    "triplet_id": "t0004"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0045",
+    "triplet_id": "t0040"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0004",
+    "triplet_id": "t0030"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0001",
+    "triplet_id": "t0059"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0060",
+    "triplet_id": "t0003"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0044",
+    "triplet_id": "t0017"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0053",
+    "triplet_id": "t0076"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0090",
+    "triplet_id": "t0088"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0020",
+    "triplet_id": "t0089"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0041",
+    "triplet_id": "t0001"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0022",
+    "triplet_id": "t0099"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0060",
+    "triplet_id": "t0003"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0077",
+    "triplet_id": "t0079"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0076",
+    "triplet_id": "t0023"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0017",
+    "triplet_id": "t0083"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0070",
+    "triplet_id": "t0039"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0006",
+    "triplet_id": "t0005"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0017",
+    "triplet_id": "t0083"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0036",
+    "triplet_id": "t0019"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0015",
+    "triplet_id": "t0036"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0095",
+    "triplet_id": "t0025"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0065",
+    "triplet_id": "t0012"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0061",
+    "triplet_id": "t0007"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0056",
+    "triplet_id": "t0029"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0052",
+    "triplet_id": "t0048"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0095",
+    "triplet_id": "t0025"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0062",
+    "triplet_id": "t0050"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0002",
+    "triplet_id": "t0037"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0073",
+    "triplet_id": "t0055"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0008",
+    "triplet_id": "t0022"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0306",
+    "repeat_of": "q0061",
+    "triplet_id": "t0007"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0030",
+    "triplet_id": "t0026"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0063",
+    "triplet_id": "t0053"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0079",
+    "triplet_id": "t0047"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0063",
+    "triplet_id": "t0053"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0024",
+    "triplet_id": "t0065"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0059",
+    "triplet_id": "t0085"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0058",
+    "triplet_id": "t0041"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0088",
+    "triplet_id": "t0020"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0028",
+    "triplet_id": "t0054"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0085",
+    "triplet_id": "t0064"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0093",
+    "triplet_id": "t0006"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0014",
+    "triplet_id": "t0043"
+  },
+  {
+    "dimension": "connect",
+    "hint": "只看逛的时候会不会断：沿街店面连续还是被空墙、停车场、住宅面打断，需不需要绕行或过街。断开的多少与位置相近，算像。（构念：空间句法 permeability、Lynch 路径连续性）",
+    "question": "【公共连通】哪个候选街区「沿公共步行道的连续性」更像 A？",
+    "question_id": "q0026",
+    "triplet_id": "t0087"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0032",
+    "triplet_id": "t0034"
+  },
+  {
+    "dimension": "entry",
+    "hint": "只看一层门面：店门是否直接开向人行道、门口密度如何、要不要经过广场或商场中庭过渡。两边都是密集临街小门，或都是大入口过渡，算像。（构念：Gehl 活跃临街面）",
+    "question": "【进入衔接】哪个候选街区「店面与街道的衔接方式」更像 A？",
+    "question_id": "q0089",
+    "triplet_id": "t0024"
+  },
+  {
+    "dimension": "chain",
+    "hint": "只看能顺路逛到的目的地：数量、集中在一条街还是散在四周、走线是否顺路。密度和分布相近，算像。（构念：destination accessibility）",
+    "question": "【串联能力】哪个候选街区「一次连续步行能串起的目的地」更像 A？",
+    "question_id": "q0041",
+    "triplet_id": "t0001"
+  }
+]

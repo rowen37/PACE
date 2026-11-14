@@ -1,0 +1,30 @@
+{
+  "hudson_yards": {
+    "bounds": [-74.0050, 40.7480, -73.9952, 40.7568],
+    "entrances": [
+      {
+        "osm_node": 11137273983,
+        "osm_venue_way": 398440363,
+        "name": "The Shops at Hudson Yards, Hudson Boulevard main entrance",
+        "building_id": "1284821",
+        "street": "Hudson Boulevard East",
+        "approach_osm_nodes": [11137273984, 11137273981, 11137273982],
+        "approach_osm_ways": [1201193487, 1201193487, 1201193486],
+        "source": "https://www.hudsonyardsnewyork.com/stories/how-get-hudson-yards"
+      }
+    ]
+  },
+  "soho": {
+    "bounds": [-74.0045, 40.7195, -73.9930, 40.7263],
+    "entrances": [
+      {
+        "osm_node": 2547223508,
+        "osm_venue_way": 247865200,
+        "name": "Camper, 110 Prince Street",
+        "building_id": "270093",
+        "street": "Prince Street",
+        "source": "https://www.camper.com/en_US/shops/usa/new-york"
+      }
+    ]
+  }
+}

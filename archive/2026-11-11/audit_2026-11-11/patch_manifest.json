@@ -1,0 +1,20 @@
+[
+  {
+    "path": "archive/2026-11-11/experiments/step1/fetch.py",
+    "before_sha256": "114d7c6ae048f4295e3843ecf85bf565af1afa7e8281d53794b28bd64f5217ed",
+    "backup": "archive/2026-11-11/audit_2026-11-11/before/experiments/step1/fetch.py",
+    "after_sha256": "c1fb249eb03d50108c07ec9efc8fcc1b77e27af68184afd2dd01ff6354f65fd8"
+  },
+  {
+    "path": "archive/2026-11-11/experiments/step3/rgscl.py",
+    "before_sha256": "c222fcccda6d6c9ae029bb70464bca1d0b0c1f1a771d125136497679e318a3d9",
+    "backup": "archive/2026-11-11/audit_2026-11-11/before/experiments/step3/rgscl.py",
+    "after_sha256": "c89304c49bfafbfdcf24d33f0628eedb66b29e7e54d916899c62a43aabb50898"
+  },
+  {
+    "path": "archive/2026-11-11/experiments/step2/plot.py",
+    "before_sha256": "12f3349e4e9c2da619dfaab2c8008743ba42622a22935aedfec9d55c9a16547e",
+    "backup": "archive/2026-11-11/audit_2026-11-11/before/experiments/step2/plot.py",
+    "after_sha256": "7adea7350eadeff643f7bdc73622fed853c1bfd2c0b95752cce6dcef5ea10229"
+  }
+]
