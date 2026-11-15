@@ -1,10 +1,14 @@
 {
-  "blocks": 100,
+  "areas": [
+    "flushing"
+  ],
+  "blocks": 62,
   "counts": {
-    "continuity": 105,
-    "door_density": 103,
-    "frontage": 107,
-    "total": 315
+    "added": 195,
+    "continuity": 169,
+    "door_density": 167,
+    "frontage": 174,
+    "total": 510
   },
   "fields": {
     "continuity": {
@@ -66,8 +70,8 @@
       "question": "【街面类型】这个街区一层的商业街面主要是哪种？"
     }
   },
-  "ratings_sha256": "2de696011c6878b5524f1bd61c15a48e59f6a4acc5e1dfbdb83fd845f92c3da8",
-  "repeat_count": 15,
+  "ratings_sha256": "cce5132d3ae40ed52b06de6279de024b2f4daf0db0333ade0f6534f2cf3b7bdd",
+  "repeat_count": 9,
   "seed": 20261116,
   "unsure": {
     "key": "X",

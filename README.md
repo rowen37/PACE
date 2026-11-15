@@ -1,47 +1,105 @@
 # PACE — Place-Aware Citywalk Exploration
 
-PACE 以 RGSCL 的 POI 与建筑双视角为基线，加入公共入口、步行通路和目的地接入关系，学习行人视角的街区表征。连通片区生成与 Citywalk 推荐是这项表征的下游应用。
+PACE learns pedestrian-perspective representations of city blocks and uses them to discover multi-scale, walk-connected commercial districts. Instead of recommending officially named areas, the system recommends **boundaries with descriptions** of how a place can be explored on foot. Every design choice is validated against independent human judgments of street-level imagery rather than administrative or BID fences.
 
-2026-11-11 整理工作区，准备重新搭建实验。
+## Background
 
-当前任务定义、三方代码审计和分阶段实验见 [任务与下一步 SOP](docs/TASK_AND_EXPERIMENT_SOP.md)。审计发现并修复旧 RGSCL 的跨地区建筑图缓存错配；旧 RGSCL 外区成绩暂不能用于模型优劣判断，待固定历史参数重新评估。原始数据和历史输出保留。
+A citywalk begins with choosing an area. What makes an area worth walking is not the list of places it contains but how they are arranged for a person on foot: small storefronts one after another along a sidewalk, or a single lobby entrance; destinations chained by continuous public walkways, or interrupted by blank walls and curb cuts. Two facts motivate PACE:
 
-## 实验环境
+**1. Official district boundaries are administrative artifacts, not experience boundaries.** BIDs and named districts exist for taxation, sanitation, and marketing. We measured this directly: in the study areas below, the official BID boundary separates street-level character no better than a random grouping of blocks — inside the fence, street fronts are as heterogeneous as across it. A recommender built on official fences inherits their blindness.
 
-在项目根目录，用 Python 3.12 创建本地环境：
+**2. Many of the most walkable commercial areas have no official boundary at all.** Retail agglomerates organically: a street that accumulates boutiques over decades, or a corridor where malls and street shops accrete around a transit node. These areas are real to walkers and to local knowledge, but invisible to any fence layer. A system that can only recommend inside recorded polygons cannot see them — and cannot answer the question a user actually asks: *"where does the good stretch start and end, and how long do I need?"*
+
+PACE starts from these facts. The boundary that matters is the one a pedestrian experiences; where it is not recorded anywhere, it must be discovered from what shapes the walking experience itself — the composition of destinations, the morphology of street fronts, and the connectivity of the walk network.
+
+## Scientific question
+
+**Can a block representation learned from map data alone capture how a block is explored on foot, and can multi-scale district boundaries derived from that representation align with where independent human observers perceive street character to change — without official fences and without hand-set thresholds?**
+
+Three operational sub-questions, each carrying a registered scope limit:
+
+1. **Validity.** Do learned representations predict human judgments of street-level structure (frontage type, door density, walk continuity) above majority baselines, per view and per fusion? — measured by leave-one-out prediction against two-annotator consensus labels.
+2. **Discovery.** Do profile-aligned partitions place group boundaries at perceived street-character transitions, including in areas that have no official boundary? — measured by within-group vs cross-group edge agreement, audited on the annotator who did not select the cut.
+3. **Scale.** Can the appropriate district scale be chosen by human-labeled structure rather than an objective-function constant, and still adapt to a user's time budget? — a complete merge tree keeps every scale; the default level is selected by profile alignment and pruned per branch by walking time.
+
+## Pipeline
+
+```
+map inputs          POI (Overture) · building footprints · walk network (NYCWalks)
+                          │
+view encoders       independent self-supervised encoders (augmentation consistency)
+                          │
+fusion              POI + walk, reliability-weighted:
+                    r_view(block) = observed × cross-seed neighbor stability
+                          │
+partition           edge weights on walking-adjacent blocks →
+                    complete-link merge tree (all scales preserved)
+                          │
+selection           tree level chosen by human-profile alignment (no thresholds)
+                          │
+serving             budget-pruned connected candidates:
+                    tour time = internal walk length / 4.5 km/h
+```
+
+The building view was removed by ablation (it carries no street-level information); the annotation instrument and evaluation are described below.
+
+## Experimental design
+
+**Human labels.** Annotators rate each block from street-view imagery on three visible constructs: frontage type (Gehl active frontage), door density, and street-wall continuity. Blocks are sampled from camera points placed every 35 m along a block's walk segments. Consensus labels are the strict majority of two calibrated annotators; agreement is reported as per-field Cohen's κ, and instrument portability is tested against uncalibrated annotators.
+
+**Representation checks.** Frozen view embeddings are scored by leave-one-out 1-NN prediction of the consensus labels, per field and per view, against majority-class baselines. View specialization (walk → continuity, POI → density) is established on development areas; a held-out area (Flushing, window frozen before any model output) measures transfer under geographic and commercial-fabric shift.
+
+**Partition evaluation.** Official BID boundaries serve only as post-hoc geometric references; profile-purity and within-group vs cross-group edge-agreement audits showed they carry no street-experience structure. Partition quality is instead measured by human profiles: a selected layer must place group boundaries where annotators perceive the street texture to change. Layer selection uses one annotator's labels and is audited with the other's (selection/audit separation).
+
+**District candidates.** The complete-link merge tree keeps every scale. The default level is selected by profile alignment (smoothed Welch t on within- vs cross-group edge agreement); user time budgets then prune the tree per branch to the finest candidate whose internal walking tour fits. No similarity cutoffs, target group counts, or stopping tolerances exist anywhere in the pipeline.
+
+## Data
+
+All raw layers live in a single frozen NYC snapshot (`data/raw/nyc/2026-11-09/`, SHA-256 manifest included).
+
+| Area | Role | Blocks | Commercial POI | Frozen |
+| --- | --- | ---: | ---: | --- |
+| SoHo | development | 67 | 2,479 | 2026-11-09 |
+| Hudson Yards | development | 34 | 512 | 2026-11-09 |
+| Flushing | held-out judge | 69 | 1,466 | 2026-11-14 (before any model output) |
+
+Sources: Overture Places, NYC building footprints, MIT NYCWalks pedestrian network, OpenStreetMap, Google Street View (imagery per-block, pano IDs and capture dates recorded).
+
+## Repository layout
+
+```text
+configs/        study-area windows (frozen bounds)
+data/           raw snapshot, processed block inputs, annotations, splits
+docs/           protocols, experiment reports, open-questions ledger
+experiments/    runnable entry points for every pipeline stage
+outputs/        frozen experiment artifacts with input hashes
+src/pace/       model code
+archive/        pre-reorganization experiments (kept as historical evidence)
+```
+
+## Setup
 
 ```sh
 python3.12 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
 .venv/bin/python -m pip check
-```
-
-[requirements.in](requirements.in) 列出直接依赖，[requirements.txt](requirements.txt) 固定完整版本。当前环境在 macOS arm64、Python 3.12.15 上验证，用于读取冻结快照、构图和运行模型。历史下载、绘图和作者脚本的额外依赖见各自归档说明。
-
-已有本地快照时，可用一次短运行验证三视角实验入口。每次指定一个新的输出目录：
-
-```sh
 .venv/bin/python experiments/pedestrian_rgscl.py --epochs 1 --output outputs/env_smoke
 ```
 
-## 目录
+Street-view fetching requires `PACE_GSV_API_KEY` (Google) or `PACE_MAPILLARY_TOKEN`.
 
-```text
-PACE/
-├── data/
-│   ├── raw/nyc/2026-11-09/   # 已有纽约原始数据及来源校验清单
-│   ├── processed/           # 新流程生成的清洗数据与图
-│   ├── annotations/         # 人工标注
-│   └── splits/              # 固定的训练、验证、测试划分
-├── src/pace/                # 新流程的公共代码
-├── configs/                 # 数据处理与实验配置
-├── docs/                    # 任务定义、代码审计与实验 SOP
-├── experiments/             # 新实验入口
-├── outputs/                 # 新实验指标、模型和图表
-├── references/              # 论文及作者参考代码
-└── archive/2026-11-11/       # 原实验、结果与原项目说明
-```
+## Documentation
 
-原始数据以独立快照保存，处理后的数据写入 `data/processed/`，标注和划分分别写入对应目录。实验配置引用数据路径，运行结果按实验名称写入 `outputs/`。
+- [Dataset specification](docs/DATASET_SPEC.md) — sources, coverage, field dictionaries
+- [Annotation protocol](docs/STREETVIEW_ANNOTATION_PROTOCOL.md) — instrument design and quality gates
+- [Partition benchmarks](docs/WHOLE_BLOCK_BENCHMARK.md) · [fusion comparison](docs/FUSION_PARTITION_BENCHMARK.md) · [Infomap and parcel ceiling](docs/MAPPLUTO_AND_INFOMAP_PILOT.md)
+- [Profile-guided level selection](docs/PROFILE_LEVEL_SELECTION.md) · [view ablation](docs/VIEW_ABLATION.md) · [E4 connected candidates](docs/E4_CONNECTED_CANDIDATES.md)
+- [Held-out area verdict](docs/FLUSHING_HELDOUT_VERDICT.md)
+- [Open scientific questions](docs/OPEN_SCIENTIFIC_QUESTIONS.md) — registered gaps and their scope limits
+- [Task and experiment SOP](docs/TASK_AND_EXPERIMENT_SOP.md) · [audit reports](docs/audit_structure.md)
 
-数据说明见 [data/README.md](data/README.md)。旧实验的使用方式和迁移记录见 [archive/2026-11-11/README.md](archive/2026-11-11/README.md)。
+## Principles
+
+1. **No hand-set thresholds** — no similarity cutoffs, target group counts, or stopping tolerances; every constant declares its provenance.
+2. **Freeze before evaluate** — inputs, predictions, and labels are hashed; results are never overwritten, only superseded in new output directories.
+3. **Selection/audit separation** — the labels that choose a method are never the labels that grade it.

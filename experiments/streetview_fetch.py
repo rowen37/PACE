@@ -13,7 +13,7 @@ import urllib.request
 
 from pyproj import Transformer
 
-from streetview_common import AREAS, dataset_root, read_features, write_json
+from streetview_common import DATA_AREAS as AREAS, dataset_root, read_features, write_json
 
 TO_METRES = Transformer.from_crs(4326, 6538, always_xy=True)
 IMAGE_SIZE, FOV, PITCH, RADIUS_M, SNAP_M = "640x640", 100, 5, 25, 25
@@ -190,17 +190,27 @@ def main():
     parser.add_argument("provider", choices=("google", "mapillary", "demo"))
     parser.add_argument("--dataset", type=Path, default=dataset_root())
     parser.add_argument("--images-per-block", type=int, default=4)
+    parser.add_argument("--only", help="fetch one area and merge into the existing manifest")
     parser.add_argument("--replace", action="store_true",
                         help="required when a manifest already exists")
     args = parser.parse_args()
 
     manifest_path = args.dataset / "manifest.json"
-    if manifest_path.exists() and not args.replace:
-        raise SystemExit("manifest.json already exists; pass --replace to refetch")
     for env, provider in (("PACE_GSV_API_KEY", "google"), ("PACE_MAPILLARY_TOKEN", "mapillary")):
         if args.provider == provider and not os.environ.get(env):
             raise SystemExit(f"set {env} for the {provider} provider")
     points = load_points(args.dataset)
+    if args.only:
+        points = {args.only: points[args.only]}
+        if not manifest_path.exists():
+            raise SystemExit("--only needs an existing manifest")
+        manifest = json.loads(manifest_path.read_bytes())
+        if manifest["provider"] != args.provider:
+            raise SystemExit(f"manifest provider {manifest['provider']} != {args.provider}")
+    else:
+        if manifest_path.exists() and not args.replace:
+            raise SystemExit("manifest.json already exists; pass --replace to refetch")
+        manifest = None
     if args.provider == "google":
         images = fetch_google(args.dataset, points, args.images_per_block,
                               os.environ["PACE_GSV_API_KEY"])
@@ -209,11 +219,17 @@ def main():
                                  os.environ["PACE_MAPILLARY_TOKEN"])
     else:
         images = fetch_demo(args.dataset, points, args.images_per_block)
-    write_json(manifest_path, {"provider": args.provider,
-                               "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-                               "size": IMAGE_SIZE, "fov": FOV, "pitch": PITCH,
-                               "radius_m": RADIUS_M, "images_per_block": args.images_per_block,
-                               "blocks": images})
+    if manifest is None:
+        write_json(manifest_path, {"provider": args.provider,
+                                   "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                                   "size": IMAGE_SIZE, "fov": FOV, "pitch": PITCH,
+                                   "radius_m": RADIUS_M, "images_per_block": args.images_per_block,
+                                   "blocks": images})
+    else:
+        manifest["blocks"].update(images)
+        manifest["additions"] = {**manifest.get("additions", {}),
+                                 args.only: datetime.now(timezone.utc).isoformat(timespec="seconds")}
+        write_json(manifest_path, manifest)
 
 
 if __name__ == "__main__":

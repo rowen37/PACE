@@ -9,7 +9,7 @@ from pathlib import Path
 from pyproj import Transformer
 from shapely.geometry import shape
 
-from streetview_common import AREAS, dataset_root, read_features, write_json
+from streetview_common import DATA_AREAS, dataset_root, read_features, write_json
 
 TO_METRES = Transformer.from_crs(4326, 6538, always_xy=True)
 SAMPLE_INTERVAL_M = 35.0
@@ -74,7 +74,7 @@ def main():
     output.mkdir(parents=True, exist_ok=True)
     summary = {"sample_interval_m": SAMPLE_INTERVAL_M, "dedupe_m": DEDUPE_M,
                "max_points_per_block": args.max_points, "areas": {}}
-    for area in AREAS:
+    for area in DATA_AREAS:
         blocks = read_features(args.inputs, area, "blocks")
         walk = read_features(args.inputs, area, "walk")
         per_block = {f["properties"]["block_id"]: [] for f in blocks}

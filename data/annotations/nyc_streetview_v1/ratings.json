@@ -8946,5 +8946,5547 @@
     ],
     "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
     "question_id": "r0289"
+  },
+  {
+    "area": "flushing",
+    "block": "b078",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0514"
+  },
+  {
+    "area": "flushing",
+    "block": "b047",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0440"
+  },
+  {
+    "area": "flushing",
+    "block": "b074",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0509"
+  },
+  {
+    "area": "flushing",
+    "block": "b010",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0348"
+  },
+  {
+    "area": "flushing",
+    "block": "b065",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0483"
+  },
+  {
+    "area": "flushing",
+    "block": "b065",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0485"
+  },
+  {
+    "area": "flushing",
+    "block": "b039",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0417"
+  },
+  {
+    "area": "flushing",
+    "block": "b018",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0367"
+  },
+  {
+    "area": "flushing",
+    "block": "b070",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0499"
+  },
+  {
+    "area": "flushing",
+    "block": "b020",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0373"
+  },
+  {
+    "area": "flushing",
+    "block": "b014",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0355"
+  },
+  {
+    "area": "flushing",
+    "block": "b061",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0475"
+  },
+  {
+    "area": "flushing",
+    "block": "b015",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0357"
+  },
+  {
+    "area": "flushing",
+    "block": "b043",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0427"
+  },
+  {
+    "area": "flushing",
+    "block": "b035",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0408"
+  },
+  {
+    "area": "flushing",
+    "block": "b071",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0503"
+  },
+  {
+    "area": "flushing",
+    "block": "b060",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0471"
+  },
+  {
+    "area": "flushing",
+    "block": "b011",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0351"
+  },
+  {
+    "area": "flushing",
+    "block": "b003",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0334"
+  },
+  {
+    "area": "flushing",
+    "block": "b054",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0456"
+  },
+  {
+    "area": "flushing",
+    "block": "b064",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0480"
+  },
+  {
+    "area": "flushing",
+    "block": "b036",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0412"
+  },
+  {
+    "area": "flushing",
+    "block": "b053",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0453"
+  },
+  {
+    "area": "flushing",
+    "block": "b014",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0354"
+  },
+  {
+    "area": "flushing",
+    "block": "b023",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0516",
+    "repeat_of": "r0383"
+  },
+  {
+    "area": "flushing",
+    "block": "b017",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0364"
+  },
+  {
+    "area": "flushing",
+    "block": "b076",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0511"
+  },
+  {
+    "area": "flushing",
+    "block": "b047",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0439"
+  },
+  {
+    "area": "flushing",
+    "block": "b010",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0349"
+  },
+  {
+    "area": "flushing",
+    "block": "b045",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0434"
+  },
+  {
+    "area": "flushing",
+    "block": "b006",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0341"
+  },
+  {
+    "area": "flushing",
+    "block": "b021",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0375"
+  },
+  {
+    "area": "flushing",
+    "block": "b071",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0502"
+  },
+  {
+    "area": "flushing",
+    "block": "b040",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0422"
+  },
+  {
+    "area": "flushing",
+    "block": "b015",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0358"
+  },
+  {
+    "area": "flushing",
+    "block": "b043",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0426"
+  },
+  {
+    "area": "flushing",
+    "block": "b052",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0451"
+  },
+  {
+    "area": "flushing",
+    "block": "b027",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0391"
+  },
+  {
+    "area": "flushing",
+    "block": "b071",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0501"
+  },
+  {
+    "area": "flushing",
+    "block": "b017",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0363"
+  },
+  {
+    "area": "flushing",
+    "block": "b036",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0413"
+  },
+  {
+    "area": "flushing",
+    "block": "b018",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0366"
+  },
+  {
+    "area": "flushing",
+    "block": "b009",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0346"
+  },
+  {
+    "area": "flushing",
+    "block": "b074",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0508"
+  },
+  {
+    "area": "flushing",
+    "block": "b073",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0504"
+  },
+  {
+    "area": "flushing",
+    "block": "b032",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0399"
+  },
+  {
+    "area": "flushing",
+    "block": "b007",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0342"
+  },
+  {
+    "area": "flushing",
+    "block": "b016",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0362"
+  },
+  {
+    "area": "flushing",
+    "block": "b025",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0389"
+  },
+  {
+    "area": "flushing",
+    "block": "b067",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0489"
+  },
+  {
+    "area": "flushing",
+    "block": "b011",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0352"
+  },
+  {
+    "area": "flushing",
+    "block": "b068",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0493"
+  },
+  {
+    "area": "flushing",
+    "block": "b035",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0410"
+  },
+  {
+    "area": "flushing",
+    "block": "b048",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0443"
+  },
+  {
+    "area": "flushing",
+    "block": "b031",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0398"
+  },
+  {
+    "area": "flushing",
+    "block": "b053",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0455"
+  },
+  {
+    "area": "flushing",
+    "block": "b034",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0405"
+  },
+  {
+    "area": "flushing",
+    "block": "b024",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0386"
+  },
+  {
+    "area": "flushing",
+    "block": "b033",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0402"
+  },
+  {
+    "area": "flushing",
+    "block": "b002",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0332"
+  },
+  {
+    "area": "flushing",
+    "block": "b039",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0418"
+  },
+  {
+    "area": "flushing",
+    "block": "b009",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0347"
+  },
+  {
+    "area": "flushing",
+    "block": "b065",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0484"
+  },
+  {
+    "area": "flushing",
+    "block": "b059",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0469"
+  },
+  {
+    "area": "flushing",
+    "block": "b005",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0336"
+  },
+  {
+    "area": "flushing",
+    "block": "b020",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0374"
+  },
+  {
+    "area": "flushing",
+    "block": "b049",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0446"
+  },
+  {
+    "area": "flushing",
+    "block": "b046",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0437"
+  },
+  {
+    "area": "flushing",
+    "block": "b055",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0526",
+    "repeat_of": "r0459"
+  },
+  {
+    "area": "flushing",
+    "block": "b057",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0462"
+  },
+  {
+    "area": "flushing",
+    "block": "b064",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0481"
+  },
+  {
+    "area": "flushing",
+    "block": "b076",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0512"
+  },
+  {
+    "area": "flushing",
+    "block": "b007",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0343"
+  },
+  {
+    "area": "flushing",
+    "block": "b037",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0415"
+  },
+  {
+    "area": "flushing",
+    "block": "b032",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0401"
+  },
+  {
+    "area": "flushing",
+    "block": "b024",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0518",
+    "repeat_of": "r0384"
+  },
+  {
+    "area": "flushing",
+    "block": "b049",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0444"
+  },
+  {
+    "area": "flushing",
+    "block": "b006",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0340"
+  },
+  {
+    "area": "flushing",
+    "block": "b066",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0486"
+  },
+  {
+    "area": "flushing",
+    "block": "b028",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0394"
+  },
+  {
+    "area": "flushing",
+    "block": "b007",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0344"
+  },
+  {
+    "area": "flushing",
+    "block": "b031",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0396"
+  },
+  {
+    "area": "flushing",
+    "block": "b073",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0505"
+  },
+  {
+    "area": "flushing",
+    "block": "b003",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0335"
+  },
+  {
+    "area": "flushing",
+    "block": "b032",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0400"
+  },
+  {
+    "area": "flushing",
+    "block": "b074",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0507"
+  },
+  {
+    "area": "flushing",
+    "block": "b019",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0369"
+  },
+  {
+    "area": "flushing",
+    "block": "b034",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0406"
+  },
+  {
+    "area": "flushing",
+    "block": "b037",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0416"
+  },
+  {
+    "area": "flushing",
+    "block": "b070",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0500"
+  },
+  {
+    "area": "flushing",
+    "block": "b009",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0345"
+  },
+  {
+    "area": "flushing",
+    "block": "b040",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0420"
+  },
+  {
+    "area": "flushing",
+    "block": "b024",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0385"
+  },
+  {
+    "area": "flushing",
+    "block": "b069",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0528",
+    "repeat_of": "r0495"
+  },
+  {
+    "area": "flushing",
+    "block": "b018",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0368"
+  },
+  {
+    "area": "flushing",
+    "block": "b058",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0467"
+  },
+  {
+    "area": "flushing",
+    "block": "b022",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0380"
+  },
+  {
+    "area": "flushing",
+    "block": "b037",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0414"
+  },
+  {
+    "area": "flushing",
+    "block": "b055",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0461"
+  },
+  {
+    "area": "flushing",
+    "block": "b033",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0403"
+  },
+  {
+    "area": "flushing",
+    "block": "b046",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0435"
+  },
+  {
+    "area": "flushing",
+    "block": "b059",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0468"
+  },
+  {
+    "area": "flushing",
+    "block": "b021",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0376"
+  },
+  {
+    "area": "flushing",
+    "block": "b014",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0356"
+  },
+  {
+    "area": "flushing",
+    "block": "b078",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0515"
+  },
+  {
+    "area": "flushing",
+    "block": "b039",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0419"
+  },
+  {
+    "area": "flushing",
+    "block": "b019",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0371"
+  },
+  {
+    "area": "flushing",
+    "block": "b066",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0487"
+  },
+  {
+    "area": "flushing",
+    "block": "b052",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0450"
+  },
+  {
+    "area": "flushing",
+    "block": "b036",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0530",
+    "repeat_of": "r0412"
+  },
+  {
+    "area": "flushing",
+    "block": "b048",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0442"
+  },
+  {
+    "area": "flushing",
+    "block": "b011",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0353"
+  },
+  {
+    "area": "flushing",
+    "block": "b063",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0532",
+    "repeat_of": "r0477"
+  },
+  {
+    "area": "flushing",
+    "block": "b052",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0452"
+  },
+  {
+    "area": "flushing",
+    "block": "b041",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0425"
+  },
+  {
+    "area": "flushing",
+    "block": "b023",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0381"
+  },
+  {
+    "area": "flushing",
+    "block": "b005",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0338"
+  },
+  {
+    "area": "flushing",
+    "block": "b067",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0491"
+  },
+  {
+    "area": "flushing",
+    "block": "b005",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0337"
+  },
+  {
+    "area": "flushing",
+    "block": "b064",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0482"
+  },
+  {
+    "area": "flushing",
+    "block": "b069",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0497"
+  },
+  {
+    "area": "flushing",
+    "block": "b058",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0465"
+  },
+  {
+    "area": "flushing",
+    "block": "b055",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0460"
+  },
+  {
+    "area": "flushing",
+    "block": "b031",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0397"
+  },
+  {
+    "area": "flushing",
+    "block": "b035",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0409"
+  },
+  {
+    "area": "flushing",
+    "block": "b066",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0488"
+  },
+  {
+    "area": "flushing",
+    "block": "b041",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0424"
+  },
+  {
+    "area": "flushing",
+    "block": "b045",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0432"
+  },
+  {
+    "area": "flushing",
+    "block": "b043",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0428"
+  },
+  {
+    "area": "flushing",
+    "block": "b034",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0407"
+  },
+  {
+    "area": "flushing",
+    "block": "b063",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0479"
+  },
+  {
+    "area": "flushing",
+    "block": "b050",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0448"
+  },
+  {
+    "area": "flushing",
+    "block": "b070",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0498"
+  },
+  {
+    "area": "flushing",
+    "block": "b057",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0464"
+  },
+  {
+    "area": "flushing",
+    "block": "b044",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0429"
+  },
+  {
+    "area": "flushing",
+    "block": "b078",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0513"
+  },
+  {
+    "area": "flushing",
+    "block": "b047",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0438"
+  },
+  {
+    "area": "flushing",
+    "block": "b033",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0404"
+  },
+  {
+    "area": "flushing",
+    "block": "b036",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0411"
+  },
+  {
+    "area": "flushing",
+    "block": "b069",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0495"
+  },
+  {
+    "area": "flushing",
+    "block": "b016",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0360"
+  },
+  {
+    "area": "flushing",
+    "block": "b046",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0436"
+  },
+  {
+    "area": "flushing",
+    "block": "b002",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0330"
+  },
+  {
+    "area": "flushing",
+    "block": "b054",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0457"
+  },
+  {
+    "area": "flushing",
+    "block": "b023",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0383"
+  },
+  {
+    "area": "flushing",
+    "block": "b049",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0445"
+  },
+  {
+    "area": "flushing",
+    "block": "b069",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0496"
+  },
+  {
+    "area": "flushing",
+    "block": "b010",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0350"
+  },
+  {
+    "area": "flushing",
+    "block": "b020",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0372"
+  },
+  {
+    "area": "flushing",
+    "block": "b015",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0359"
+  },
+  {
+    "area": "flushing",
+    "block": "b044",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0430"
+  },
+  {
+    "area": "flushing",
+    "block": "b027",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0390"
+  },
+  {
+    "area": "flushing",
+    "block": "b059",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0470"
+  },
+  {
+    "area": "flushing",
+    "block": "b058",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0466"
+  },
+  {
+    "area": "flushing",
+    "block": "b028",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0393"
+  },
+  {
+    "area": "flushing",
+    "block": "b017",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0365"
+  },
+  {
+    "area": "flushing",
+    "block": "b022",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0379"
+  },
+  {
+    "area": "flushing",
+    "block": "b019",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0370"
+  },
+  {
+    "area": "flushing",
+    "block": "b053",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0454"
+  },
+  {
+    "area": "flushing",
+    "block": "b044",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0431"
+  },
+  {
+    "area": "flushing",
+    "block": "b024",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0384"
+  },
+  {
+    "area": "flushing",
+    "block": "b068",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0492"
+  },
+  {
+    "area": "flushing",
+    "block": "b037",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0524",
+    "repeat_of": "r0416"
+  },
+  {
+    "area": "flushing",
+    "block": "b063",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0478"
+  },
+  {
+    "area": "flushing",
+    "block": "b025",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0388"
+  },
+  {
+    "area": "flushing",
+    "block": "b021",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0377"
+  },
+  {
+    "area": "flushing",
+    "block": "b023",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0382"
+  },
+  {
+    "area": "flushing",
+    "block": "b050",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0449"
+  },
+  {
+    "area": "flushing",
+    "block": "b016",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0361"
+  },
+  {
+    "area": "flushing",
+    "block": "b068",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0494"
+  },
+  {
+    "area": "flushing",
+    "block": "b050",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0447"
+  },
+  {
+    "area": "flushing",
+    "block": "b045",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0433"
+  },
+  {
+    "area": "flushing",
+    "block": "b076",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0510"
+  },
+  {
+    "area": "flushing",
+    "block": "b061",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0476"
+  },
+  {
+    "area": "flushing",
+    "block": "b025",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0387"
+  },
+  {
+    "area": "flushing",
+    "block": "b006",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0339"
+  },
+  {
+    "area": "flushing",
+    "block": "b028",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0395"
+  },
+  {
+    "area": "flushing",
+    "block": "b060",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0472"
+  },
+  {
+    "area": "flushing",
+    "block": "b040",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0421"
+  },
+  {
+    "area": "flushing",
+    "block": "b060",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0473"
+  },
+  {
+    "area": "flushing",
+    "block": "b048",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0441"
+  },
+  {
+    "area": "flushing",
+    "block": "b045",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0522",
+    "repeat_of": "r0433"
+  },
+  {
+    "area": "flushing",
+    "block": "b061",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0474"
+  },
+  {
+    "area": "flushing",
+    "block": "b027",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0392"
+  },
+  {
+    "area": "flushing",
+    "block": "b068",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0520",
+    "repeat_of": "r0492"
+  },
+  {
+    "area": "flushing",
+    "block": "b041",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0423"
+  },
+  {
+    "area": "flushing",
+    "block": "b063",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0477"
+  },
+  {
+    "area": "flushing",
+    "block": "b067",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0490"
+  },
+  {
+    "area": "flushing",
+    "block": "b054",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0458"
+  },
+  {
+    "area": "flushing",
+    "block": "b057",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0463"
+  },
+  {
+    "area": "flushing",
+    "block": "b002",
+    "field": "door_density",
+    "hint": "只数面向街道的商业店门，不数大楼门厅和住宅门。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "密：店门几乎一个挨一个"
+      },
+      {
+        "key": "B",
+        "label": "中：店门之间有明显间隔"
+      },
+      {
+        "key": "C",
+        "label": "稀：整片街面几乎见不到店门"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【店门密度】沿街的店门有多密？",
+    "question_id": "r0331"
+  },
+  {
+    "area": "flushing",
+    "block": "b073",
+    "field": "continuity",
+    "hint": "只看这组照片里的街墙（street wall）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "连续：店面沿街墙贯穿视野，基本不断"
+      },
+      {
+        "key": "B",
+        "label": "有断口：主体连续，但有空墙、停车场或闲置段"
+      },
+      {
+        "key": "C",
+        "label": "破碎：频繁断开，或没有连续商业街面"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【沿街连续性】店面沿街墙的连续程度？",
+    "question_id": "r0506"
+  },
+  {
+    "area": "flushing",
+    "block": "b022",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0378"
+  },
+  {
+    "area": "flushing",
+    "block": "b055",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0459"
+  },
+  {
+    "area": "flushing",
+    "block": "b003",
+    "field": "frontage",
+    "hint": "以这组照片能看到的街面为准（Gehl 活跃临街面）。判断不了选「看不出」。",
+    "kind": "rating",
+    "options": [
+      {
+        "key": "A",
+        "label": "临街小店为主：店门一间挨一间，直接开在人行道上"
+      },
+      {
+        "key": "B",
+        "label": "混合：既有临街店门，也有明显的大入口或非商业面"
+      },
+      {
+        "key": "C",
+        "label": "大入口为主：广场、商场或大楼门厅，店面不直接临街"
+      },
+      {
+        "key": "D",
+        "label": "几乎无商业街面：住宅、仓库、空墙为主"
+      },
+      {
+        "key": "X",
+        "label": "看不出 / 证据不足"
+      }
+    ],
+    "question": "【街面类型】这个街区一层的商业街面主要是哪种？",
+    "question_id": "r0333"
   }
 ]

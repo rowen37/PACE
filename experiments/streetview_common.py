@@ -6,7 +6,8 @@ import tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-AREAS = ("soho", "hudson_yards")
+AREAS = ("soho", "hudson_yards")  # areas with frozen model outputs
+DATA_AREAS = AREAS + ("flushing",)  # areas covered by raw data and street view
 DATASET = "nyc_streetview_v1"
 
 

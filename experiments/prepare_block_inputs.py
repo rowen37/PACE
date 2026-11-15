@@ -153,8 +153,14 @@ def prepare_area(area, folder, window, lines):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, required=True)
-    output = parser.parse_args().output
-    windows = {area: transform(TO_METRES, box(*config["bounds"])) for area, config in read(AREAS).items()}
+    parser.add_argument("--areas", type=Path, default=AREAS,
+                        help="area config; defaults to the archived study windows")
+    parser.add_argument("--only", help="process a single area from the config")
+    args = parser.parse_args()
+    config = read(args.areas)
+    if args.only:
+        config = {args.only: config[args.only]}
+    windows = {area: transform(TO_METRES, box(*settings["bounds"])) for area, settings in config.items()}
     source = read(SNAPSHOT / "nycwalks.geojson")
     if source["crs"]["properties"]["name"] != "EPSG:6538":
         raise ValueError("Unexpected NYCWalks CRS")
@@ -165,9 +171,15 @@ def main():
             if geometry.intersects(window):
                 lines[area].extend((f'{record["id"]}:{i}', line) for i, line in enumerate(
                     line_parts(geometry.intersection(window))))
-    output.mkdir(parents=True)
+    output = args.output
+    output.mkdir(parents=True, exist_ok=True)
     summary = {area: prepare_area(area, output / area, window, lines[area]) for area, window in windows.items()}
-    write(output / "summary.json", summary)
+    summary_path = output / "summary.json"
+    if summary_path.exists():
+        merged = read(summary_path) | summary
+        summary_path.write_bytes(orjson.dumps(merged, option=orjson.OPT_INDENT_2) + b"\n")
+    else:
+        write(summary_path, summary)
     print(orjson.dumps(summary, option=orjson.OPT_INDENT_2).decode())
 
 

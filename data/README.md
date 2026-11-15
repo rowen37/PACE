@@ -13,6 +13,8 @@
 
 `raw/nyc/2026-11-09/` 来自原 `experiments/step1/data/`，采集时间按原清单的 UTC 日期命名。包含 Hudson Yards、SoHo 的建筑轮廓、OSM 数据和 Overture Places，以及 NYCWalks 步行网络。
 
+**Flushing 扩展（2026-11-14 加入同一快照目录）**：Main St 商圈窗口（边界冻结于 [configs/areas.json](../configs/areas.json)，冻结先于该区任何模型输出）。`flushing_*.geojson/json` 三层由 [fetch_area_raw.py](../experiments/fetch_area_raw.py) 下载，Overture 沿用原快照 release `2026-10-21.0`；哈希与下载时间记录在 [manifest.json](raw/nyc/2026-11-09/manifest.json) 的 `additions.flushing`，与原 2026-11-09 采集时间分开注明。
+
 [manifest.json](raw/nyc/2026-11-09/manifest.json) 保存原采集时间和 7 个源文件的 SHA-256。迁移已逐一核对。旧样区边界和入口核验配置保存在 [归档 areas.json](../archive/2026-11-11/experiments/step1/areas.json)。
 
 旧实验生成的图和预测结果位于 `archive/2026-11-11/experiments/step*/outputs/`，可用于追溯当时的处理过程。

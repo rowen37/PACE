@@ -140,11 +140,16 @@ def main():
     parser.add_argument("--infomap", type=Path, default=ROOT / "outputs/infomap_partition_pilot")
     parser.add_argument("--views", default="poi,walk",
                         help="fused view subset; the frozen tree check only covers all three")
+    parser.add_argument("--areas", default="soho,hudson_yards")
     parser.add_argument("--output", type=Path, default=None)
     args = parser.parse_args()
+    areas = tuple(args.areas.split(","))
     subset = tuple(args.views.split(","))
     if args.output is None:
-        args.output = ROOT / f"outputs/profile_level_selection_{args.views.replace(',', '+')}"
+        suffix = args.views.replace(",", "+")
+        if areas != AREAS:
+            suffix += "_" + "".join(a[0] for a in areas)
+        args.output = ROOT / f"outputs/profile_level_selection_{suffix}"
     args.output.mkdir(parents=True, exist_ok=False)
 
     selector = annotator_profiles(args.dataset, "001")
@@ -157,14 +162,20 @@ def main():
                            "score": "smoothed Welch t on within-vs-cross edge profile agreement",
                            "views": list(subset), "null_seed": NULL_SEED},
               "areas": {}}
-    for area in AREAS:
+    for area in areas:
         data = json.loads((args.source / f"{area}_predictions.json").read_bytes())
-        info = json.loads((args.infomap / f"{area}_partitions.json").read_bytes())["runs"]
+        info_path = args.infomap / f"{area}_partitions.json"
+        info = json.loads(info_path.read_bytes())["runs"] if info_path.exists() else {}
         blocks = block_geometry(ROOT / f"data/processed/nyc-2026-11-09-block-inputs/{area}/blocks.geojson")
-        reference = fences[REFERENCE_NAMES[area]].intersection(union_all(list(blocks.values())))
+        if area in REFERENCE_NAMES:
+            reference = fences[REFERENCE_NAMES[area]].intersection(union_all(list(blocks.values())))
+        else:
+            reference = None
         keys, adjacency = data["keys"], [tuple(e) for e in data["adjacency"]]
 
         def bid_iou(groups):
+            if reference is None:
+                return None
             best = 0.0
             for group in groups:
                 size = sum(blocks[b].area for b in group)
@@ -212,8 +223,9 @@ def main():
                         "audit_purity": purity(groups, auditor, area), "bid_iou": bid_iou(groups)}
 
             comparisons = [audit(run["partitions"]["block_moves"]["groups"], "modularity_block_moves"),
-                           audit(info[seed]["infomap"], "infomap"),
                            audit(layers[0], "singletons_reference")]
+            if info:
+                comparisons.insert(1, audit(info[seed]["infomap"], "infomap"))
             if modularity_layer is not None:
                 comparisons.insert(0, audit(layers[modularity_layer], "modularity_tree_cut"))
             seeds_out[seed] = {
@@ -228,11 +240,12 @@ def main():
                 ep = row["audit_excess_purity"] if row["audit_excess_purity"] is not None else 0.0
                 ec = row["audit_edge_contrast"] if row["audit_edge_contrast"] is not None else 0.0
                 pu = f"{row['audit_purity']:.0%}" if row["audit_purity"] is not None else "n/a"
+                bi = f"{row['bid_iou']:.2f}" if row["bid_iou"] is not None else "n/a"
                 print(f"    {row['method']:24s} groups {row['groups']:2d} | "
                       f"excess {ep:.3f} | contrast {ec:+.3f} | purity {pu} "
-                      f"| BID IoU {row['bid_iou']:.2f}")
+                      f"| BID IoU {bi}")
         report["areas"][area] = seeds_out
-    report["inputs"] = {"source_sha256": {a: sha256((args.source / f"{a}_predictions.json").read_bytes()).hexdigest() for a in AREAS},
+    report["inputs"] = {"source_sha256": {a: sha256((args.source / f"{a}_predictions.json").read_bytes()).hexdigest() for a in areas},
                         "responses_sha256": {p.name: sha256(p.read_bytes()).hexdigest()
                                              for p in sorted((args.dataset / "responses").glob("*.jsonl"))}}
     write_json(args.output / "selection.json", report)

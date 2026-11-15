@@ -1,0 +1,12 @@
+{
+  "hudson_yards": {
+    "bounds": [-74.005, 40.748, -73.9952, 40.7568]
+  },
+  "soho": {
+    "bounds": [-74.0045, 40.7195, -73.993, 40.7263]
+  },
+  "flushing": {
+    "bounds": [-73.836, 40.7565, -73.82, 40.7665],
+    "frozen_note": "Main St corridor incl. Roosevelt Ave retail core and New World Mall; frozen 2026-11-15 before any model output was computed for this area"
+  }
+}

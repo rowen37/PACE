@@ -45,34 +45,43 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dataset", type=dataset_root().__class__, default=dataset_root())
     parser.add_argument("--repeat-count", type=int, default=15)
+    parser.add_argument("--only", help="generate questions for one area only; "
+                                       "ids continue after the frozen set")
     args = parser.parse_args()
 
     manifest = json.loads((args.dataset / "manifest.json").read_bytes())
-    blocks = [(area, block) for area, rows in manifest["blocks"].items()
-              for block in sorted(rows)]
+    areas = [args.only] if args.only else list(manifest["blocks"])
+    blocks = [(area, block) for area in areas for block in sorted(manifest["blocks"].get(area, {}))]
+    path = args.dataset / "ratings.json"
+    existing = json.loads(path.read_bytes()) if path.exists() else []
+    if any(q["area"] in areas for q in existing):
+        raise SystemExit(f"questions for {areas} already exist; refusing to regenerate")
+    next_id = max((int(q["question_id"][1:]) for q in existing), default=0) + 1
     rng = random.Random(SEED)
     questions = []
     for i, (area, block) in enumerate(blocks):
         for field, spec in FIELDS.items():
-            questions.append({"question_id": f"r{(i * len(FIELDS) + list(FIELDS).index(field)) + 1:04d}",
+            questions.append({"question_id": f"r{next_id + i * len(FIELDS) + list(FIELDS).index(field):04d}",
                               "kind": "rating", "area": area, "block": block,
                               "field": field, "question": spec["question"],
                               "options": spec["options"] + [UNSURE], "hint": spec["hint"]})
     repeats = rng.sample(questions, min(args.repeat_count, len(questions)))
     for j, q in enumerate(repeats, start=1):
-        questions.append({**q, "question_id": f"r{len(questions) + j:04d}",
+        questions.append({**q, "question_id": f"r{next_id + len(questions) + j - 1:04d}",
                           "repeat_of": q["question_id"]})
     rng.shuffle(questions)
 
-    path = args.dataset / "ratings.json"
+    added = len(questions)
+    if existing:
+        questions = existing + questions
     write_json(path, questions)
     write_json(args.dataset / "ratings_protocol.json", {
         "seed": SEED, "fields": FIELDS, "unsure": UNSURE, "repeat_count": args.repeat_count,
-        "blocks": len(blocks),
-        "counts": {"total": len(questions),
+        "blocks": len(blocks), "areas": areas,
+        "counts": {"total": len(questions), "added": added,
                    **{f: sum(1 for q in questions if q["field"] == f) for f in FIELDS}},
         "ratings_sha256": sha256(path.read_bytes()).hexdigest()})
-    print(f"{len(questions)} rating questions over {len(blocks)} blocks")
+    print(f"added {added} questions ({areas}); file now holds {len(questions)}")
 
 
 if __name__ == "__main__":

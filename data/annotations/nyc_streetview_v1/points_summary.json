@@ -1,5 +1,11 @@
 {
   "areas": {
+    "flushing": {
+      "blocks": 69,
+      "blocks_with_points": 62,
+      "points_sha256": "8a36877537dd207ec10391eca6441edce3b4e61c4f52f1b9772ce16f33b86521",
+      "total_points": 383
+    },
     "hudson_yards": {
       "blocks": 34,
       "blocks_with_points": 33,
